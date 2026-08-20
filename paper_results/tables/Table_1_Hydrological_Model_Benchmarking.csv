@@ -1,0 +1,5 @@
+Model Architecture,KGE_Flood_2022,FHV_Flood_2022 (%),KGE_Future_2023_2024,KGE_Combined [95% CI],NSE_Combined,FHV_Combined (%)
+PG-MCH (Proposed),0.872,-7.9,0.815,"0.854 [0.76, 0.90]",0.971,-11.2
+TGB-Hydro (GBDT),0.82,-7.7,0.8,"0.819 [0.73, 0.85]",0.941,-11.6
+RF-Baseline,0.573,-27.6,0.548,"0.572 [0.50, 0.68]",0.814,-29.3
+Conceptual Rainfall-Runoff,0.477,-40.6,0.586,"0.527 [0.44, 0.66]",0.808,-38.0

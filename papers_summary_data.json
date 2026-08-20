@@ -1,0 +1,582 @@
+[
+  {
+    "filename": "Low_genetic_variability_in_Prochilodus_lacustris_and_Prochil.pdf",
+    "filepath": "papers\\Low_genetic_variability_in_Prochilodus_lacustris_and_Prochil.pdf",
+    "title": "1/15 BOLETIM DO INSTITUTO DE PESCA Scientific Article",
+    "abstract": "The genus Prochilodus is an important fish resource. The various species within this genus are morphologically very similar, making reliable taxonomic identification difficult and creating uncertainty regarding the exact status of the different forms. This study aimed to evaluate the genetic differentiation between two species of Prochilodus belonging to the same lineage from the Maranh\u00e3o and Amazon River basins based on mitochondrial DNA markers (16S rRNA, COI, Cyt b) and nuclear (TROP) DNA sequences. A total of 151 samples were collected from the Maranh\u00e3o and Amazon rivers, followed by DNA extraction, polymerase chain reaction, sequencing, and data analysis, with the gene fragments analyzed separately and concatenated. The results revealed a strong genetic similarity between the species, with low genetic divergence values (0 to 0.35%) for the genes under study.",
+    "pages": 15,
+    "size_mb": 1.58,
+    "year": "2026",
+    "category": "AI, Physics-Informed ML & Computational Hydrology"
+  },
+  {
+    "filename": "A_Dynamic_Theory_for_Explaining_the_Evaporation.pdf",
+    "filepath": "papers\\A_Dynamic_Theory_for_Explaining_the_Evaporation.pdf",
+    "title": "A Dynamic Theory for Explaining the Evaporation Paradox and Global Energy Transpiration Kejing Liua,b*",
+    "abstract": "Evaporation is a part of water cycle and a process of energy exchange between atmosphere and land surface, its variation reflects global change. Pan evaporation decreases with global warming is the phenomena named evaporation paradox, which exits in worldwide and spatio \u2013 temporal. Broad-scale observations between the 1950s and 2000s revealed that global pan evaporation (Epan) decreases with increasing quantity of clouds. However, in the Huaihe River Basin, both the total cloud quantity and Epan decreased during this period, and similar phenomena were observed in some other regions of the globe. A nonlinear second- order neutral-delay dynamic equation (NSNDE) of the change in the cloud quantity and Epan with time was constructed, encompassing different stages (formation, duration, waning, recurring) of the evaporation paradox. On the basis of this equation, a new model named \u2018steamer\u2019 was proposed, encompassing a set of dynamic equations to explore the evaporation paradox. The effects of the total cloud quantity on factors that affect the sensible heat flux are investigated, revealing that actual evaporation (Ea) displays similar oscillation properties as Epan and the total cloud q",
+    "pages": 30,
+    "size_mb": 1.67,
+    "year": "2026",
+    "category": "AI, Physics-Informed ML & Computational Hydrology"
+  },
+  {
+    "filename": "A_Structural_Dynamics_Graph_World_Model_Unified.pdf",
+    "filepath": "papers\\A_Structural_Dynamics_Graph_World_Model_Unified.pdf",
+    "title": "A Structural Dynamics Graph World Model: Unified Modeling, Constrained Rollout, and Interpretable Calibration Wei Wang, Yaosen Chen\u2217, Han Yang, Yuegen Liu, Mingli Luo, Xinxin Jiao, Xuming",
+    "abstract": "The state evolution of a complex system typically arises jointly from the object\u2019s own laws, explicit relational propagation, domain conservation, and as-yet-unmodeled error. Forcing all sources into a single black box makes mechanism attribution and hard-constraint preservation unauditable over long-horizon rollouts; forcing every mechanism into one equation family discards mature domain solvers and heterogeneous models. We propose SD-GWM, a Structural Dynamics Graph World Model realized as an ex- ecutable structural contract: nodes declare self-dynamics S, edges declare neighbor graph- coupled dynamics N\u2014both fixed-form mechanism assets (rules, ODEs, domain solvers) cal- ibrating only authorized parameters. An optional bounded residual R concentrates learn- ability, while a global projection \u03a0\u2126maps states back to feasibility, enforcing constraints without guaranteeing accuracy gains. Built on this composition\u2013transition\u2013projection interface and eight frozen research questions (pre-registered), SD-GWM delivers: (i) Heterogeneous integration: rules and solvers plug in natively, dividing labor cleanly with R; (ii) Semantic fidelity: disabling R preserves source semantics bit-for-bit",
+    "pages": 37,
+    "size_mb": 2.73,
+    "year": "2026",
+    "category": "AI, Physics-Informed ML & Computational Hydrology"
+  },
+  {
+    "filename": "DefoEye_Python_Based_Software_for_Facilitating_Time_Series_I.pdf",
+    "filepath": "papers\\DefoEye_Python_Based_Software_for_Facilitating_Time_Series_I.pdf",
+    "title": "DefoEye: Python-Based Software for Facilitating Time-Series InSAR Analysis of Sentinel-1 Remote-Sensing Data Alireza Taheri Dehkordi1, 2, *, Hossein Hashemi1, 2, 3, Amir Naghibi1, 2, 3",
+    "abstract": "Time-Series Interferometric Synthetic Aperture Radar (TS-InSAR) is a powerful remote sensing technique for monitoring Ground Deformation (GD), which poses threats to geological stability and civil infrastructure worldwide. However, many existing TS-InSAR processing software tools face limitations, such as restricted geographic applicability, commercial licensing, and a lack of full end-to-end processing workflow support. While GMTSAR avoids some of these challenges, it still relies heavily on manual user intervention, requires the execution of C-shell commands, lacks a user-friendly GUI, and misses key processing steps such as interferogram network pruning and anchoring of unwrapped interferograms, all of which hinder both accessibility and accuracy. This paper introduces DefoEye (v1), an open-source Python- based software that wraps GMTSAR to facilitate the full TS-InSAR processing chain for Sentinel-1 data through a user-friendly interface. DefoEye provides an end-to-end workflow that includes parallel job execution across different steps, interferogram network pruning, and multiple anchoring options. Its applicability was evaluated in four regions with differing geological setti",
+    "pages": 20,
+    "size_mb": 1.45,
+    "year": "2026",
+    "category": "AI, Physics-Informed ML & Computational Hydrology"
+  },
+  {
+    "filename": "FLARE_MCMC_Fidelitybased_LayerAdaptive_REcursive_proposals_for.pdf",
+    "filepath": "papers\\FLARE_MCMC_Fidelitybased_LayerAdaptive_REcursive_proposals_for.pdf",
+    "title": "FLARE MCMC: Fidelity-based Layer-Adaptive REcursive proposals for MCMC \u2217 Harini Venkatesan\u2020 , Christian Shelton\u2217, Ming-Feng Ho\u2021 , Simeon Bird\u00a7 , and Mengxuan Wu\u2217",
+    "abstract": "common technique for inference in complex models. However, it can have a slow mixing rate, requir- ing the generation of many samples to obtain good estimates and an overall high computational cost. FLARE MCMC is a multi-fidelity layered MCMC method that exploits lower-fidelity approximations of the true likelihood calculation to improve mixing and leads to overall faster performance. Such lower-fidelity likelihoods are commonly available in scientific and engineering applications where the model involves a simulation whose resolution or accuracy can be tuned. Our technique uses recur- sive, layered chains with simple layer tuning; it does not require the likelihood to take any form or have any particular internal mathematical structure. We demonstrate experimentally that FLARE MCMC achieves larger effective sample sizes for the same computational time across different scien- tific domains including hydrology and cosmology.",
+    "pages": 31,
+    "size_mb": 0.73,
+    "year": "2026",
+    "category": "AI, Physics-Informed ML & Computational Hydrology"
+  },
+  {
+    "filename": "Forecasting_Land_Art_Under_Climate_Scenarios.pdf",
+    "filepath": "papers\\Forecasting_Land_Art_Under_Climate_Scenarios.pdf",
+    "title": "Forecasting Land Art Under Climate Scenarios: A Two-Stage Pipeline for Robert Smithson\u2019s Spiral Jetty Combining Diffusion (2030 & 2050)",
+    "abstract": "Robert Smithson\u2019s 1970 land artwork Spiral Jetty, anchored at the north arm of Utah\u2019s Great Salt Lake (GSL), is a geographically fixed remote-sensing target that records hydroclimatic state in its visual complexity. A companion paper [1] established this empirically from 1,744 co-registered Landsat 4\u20139 and Sentinel-2 chips spanning every year and every month from 1984 to 2025, identifying robust correlations between coarse-scale permutation entropy, mean intensity, and the third principal component of ResNet50 avg-pool embeddings on the one hand, and Great Salt Lake elevation, regional temperature, and cumulative CO2 on the other; and revealing that image complexity leads lake stage by approximately three years and that the long-term trend is non-monotonic, collapsing post-2015. The present paper builds a forecasting pipeline on that foun- dation. Stage 1 regresses each climate variable on global temperature anomaly and applies IPCC AR6 SSP1-2.6, SSP2-4.5, and SSP5-8.5 global-temperature deltas to forecast regional temperature, both-arm GSL elevation, salinity, and cumulative CO2 for 2030 and 2050. Stage 2a projects the 14 complexity features forward via per- feature linear and Ran",
+    "pages": 15,
+    "size_mb": 1.23,
+    "year": "2026",
+    "category": "AI, Physics-Informed ML & Computational Hydrology"
+  },
+  {
+    "filename": "Comparing_crop_evapotranspiration_estimation_methods_to_eval.pdf",
+    "filepath": "papers\\Comparing_crop_evapotranspiration_estimation_methods_to_eval.pdf",
+    "title": "Frontiers in Water 01",
+    "abstract": "frontiersin.org TYPE Original Research PUBLISHED 10 August 2026 DOI 10.3389/frwa.2026.1879797 OPEN ACCESS EDITED BY Temesgen Gashaw Tarkegn, Prairie View A&M University, United States REVIEWED BY Michael Rush, Neptune and Company, Inc., United States",
+    "pages": 16,
+    "size_mb": 3.02,
+    "year": "2026",
+    "category": "AI, Physics-Informed ML & Computational Hydrology"
+  },
+  {
+    "filename": "Global_Waterbody_Calculator_A_highresolution_global_database_of.pdf",
+    "filepath": "papers\\Global_Waterbody_Calculator_A_highresolution_global_database_of.pdf",
+    "title": "Global Waterbody Calculator: A high-resolution global database of lakes and reservoirs depth-area-volume (D-A-V) relationships Shengde Yu1,*, Yukai Wu2, Weikun Liao3, and Philippe Van Cappellen1,4",
+    "abstract": "The new GLRDAV database assembles key morphometric characteristics for over 1.4 million lakes and reservoirs. By integrating data from HydroLAKES and GLOBathy, > 17 million polynomial (orders 1\u20135) and power functions describing depth\u2013area\u2013volume (D-A-V) relationships at a 0.1 m depth resolution are presented. The D-A-V relationships are validated against existing databases (ReGeom and GRDL) that provide comparable or simplified global bathymetric relationships, as well as in situ measurements for four waterbodies in the Texas Water Development Board (TWDB). The results show that higher-order polynomial equations (particularly orders 4 and 5) generally yield the lowest RMSE and highest goodness-of-fit (i.e., R\u00b2). Although power functions and lower-order polynomials can offer reasonable representations for simpler and shallower systems, they typically underperform when applied to large or morphologically complex lakes and reservoirs. Our findings underscore the flexibility and robustness of GLRDAV, offering a globally consistent, high-resolution, and computationally scalable resource for hydrological, ecological, and water resource management applications.",
+    "pages": 36,
+    "size_mb": 2.62,
+    "year": "2026",
+    "category": "AI, Physics-Informed ML & Computational Hydrology"
+  },
+  {
+    "filename": "Morphometric_vulnerability_of_the_Oued_Rheris_Watershed.pdf",
+    "filepath": "papers\\Morphometric_vulnerability_of_the_Oued_Rheris_Watershed.pdf",
+    "title": "INTRODUCTION Environmental risks associated with climate variations represent a major global challenge,",
+    "abstract": "The Oued Rheris Watershed in southeastern Morocco is highly vulnerable to water erosion and desertification, exacerbated by an arid Saharan climate with low rainfall and rising temperatures. This study aims to analyze the morphometric characteristics of the Oued Rheris Watershed to assess its hydrological response time, erosion sus\u00ad ceptibility, and sensitivity to desertification, thereby supporting natural resource management and decision-making in at-risk areas. The analysis is based on a 30 m resolution ASTER GDEM (Advanced Spaceborne Thermal Emis\u00ad sion and Reflection Radiometer Global Digital Elevation Model) and geographic information systems (GIS) using ArcGIS 10.8 software. Morphometric parameters including drainage density, stream length, compactness index (Kc), equivalent rectangle, form index were calculated. The basin covers an area of 12,606.7 km\u00b2 with a perimeter of 687.018 km. The hydrographic network, classified according to Strahler (1957), comprises six orders with a total stream length of 4,412.594 km. The first-order streams dominate (50.16% of total length). The Gravelius compactness coefficient (1.71) and form index (0.46) indicate an elongated shape, approxima",
+    "pages": 14,
+    "size_mb": 3.64,
+    "year": "2023",
+    "category": "AI, Physics-Informed ML & Computational Hydrology"
+  },
+  {
+    "filename": "Improving_Bias_Correction_Methods_for_Daily_Rainfall_Using.pdf",
+    "filepath": "papers\\Improving_Bias_Correction_Methods_for_Daily_Rainfall_Using.pdf",
+    "title": "Improving Bias Correction Methods for Daily Rainfall Using a Markov Chain Approach Danny Parsons* 1, 2, 3, David Stern 3, Mouhamadou Bamba Sylla 2, James Musyoka 3, John Bagiliko",
+    "abstract": "Accurate, localised rainfall information is essential for agricultural planning, climate risk assessment, and water resources management. Gridded climate products provide rainfall information over large areas but can lack the accuracy needed at local scales, often requiring bias correction before use in local impact studies. Local intensity scaling (LOCI) and quantile mapping (QM) are two widely used bias correction methods which adjust both rainfall frequency and intensity, but do not account for the temporal structure of daily rainfall. This can lead to biases in the representation of wet and dry spells. This study proposes integrating a two- state first-order Markov chain into existing bias correction methods through state-dependent rain day thresholds and rainfall adjustments, aimed at improving temporal structure. Two implementations of this framework are presented: Markov chain local intensity scaling (MC LOCI) and Markov chain quantile mapping (MC QM). The proposed methods were applied to AgERA5 reanalysis data with rainfall data from five stations in Zimbabwe. Results showed that the Markov chain methods improved the representation of rainfall persistence, onset, and wet an",
+    "pages": 44,
+    "size_mb": 2.3,
+    "year": "2026",
+    "category": "AI, Physics-Informed ML & Computational Hydrology"
+  },
+  {
+    "filename": "Improving_Discrepancy_Measures_for_Global_Sensitivity_Analys.pdf",
+    "filepath": "papers\\Improving_Discrepancy_Measures_for_Global_Sensitivity_Analys.pdf",
+    "title": "Improving Discrepancy Measures for Global Sensitivity Analysis Samuele Lo Piano",
+    "abstract": "Sensitivity analysis methods based on Sobol\u2019 total-order indices (Ti) are well- founded but computationally demanding. A recently proposed ersatz discrepancy mea- sure offers a cheaper alternative by quantifying deviations from uniformity in input\u2013 output scatterplots, yet lacks theoretical grounding and has not been benchmarked against other data-given estimators. We introduce an adjusted ersatz discrepancy that rank-transforms the output before gridding and imputes isolated empty cells via a Moore-neighbourhood rule, substantially improving agreement with Ti. We prove, via a copula-theoretic argument, that the adjustment is a consistent screening statistic with a zero condition, an explicit full-support ceiling bounding its use as a magnitude estimator, and a documented failure mode for purely interaction-mediated dependen- cies. We benchmark the adjusted ersatz against three zero-extra-cost comparators \u2013 polynomial chaos expansion (PCE), PCE-derived Shapley effects, and a PAWN-type maximum Kolmogorov\u2013Smirnov index \u2013 across seven benchmark functions and a real- world hydrological model. The adjusted ersatz is the only estimator achieving perfect rank agreement on a non-smooth hyd",
+    "pages": 25,
+    "size_mb": 1.65,
+    "year": "2026",
+    "category": "AI, Physics-Informed ML & Computational Hydrology"
+  },
+  {
+    "filename": "Kiprop_2026_Tana_River_Basin_Land_Use.pdf",
+    "filepath": "papers\\Kiprop_2026_Tana_River_Basin_Land_Use.pdf",
+    "title": "Kiprop 2026 Tana River Basin Land Use",
+    "abstract": "Land degradation is associated with increased climate change, food insecurity, and reduced availability of livestock feed, all of which negatively affect community livelihoods. This study aimed to assess land use and land cover (LULC) changes and identify severely degraded areas in Wenje, Tana River County. Multi-temporal Landsat images from 2003, 2010, and 2017 were analyzed to detect changes in land cover. The images (Path 166, Row 61) were obtained from the United States Geological Survey (USGS) EarthExplorer and subset to extract the Area of Interest (AOI). Supervised classification using the Maximum Likelihood algorithm was performed in ArcGIS 10.7 to classify the land into six categories: water bodies, mango plantations, built-up areas, grassland, forest, and bare land. The results revealed significant land cover changes during the study period. Between 2003 and 2017, bare ground increased markedly from 8.21% to 43.95%, while forest and grassland cover declined from 21.81% to 2.69% and from 39.43% to 11.32%, respectively. Built-up areas and mango plantations expanded from 18.18% to 25.09% and from 10.05% to 15.88%, indicating increasing urbanization and agricultural developme",
+    "pages": 14,
+    "size_mb": 0.99,
+    "year": "2026",
+    "category": "AI, Physics-Informed ML & Computational Hydrology"
+  },
+  {
+    "filename": "Machine_Learning_and_Remote_Sensing_for_Gully_Erosion_Suscep.pdf",
+    "filepath": "papers\\Machine_Learning_and_Remote_Sensing_for_Gully_Erosion_Suscep.pdf",
+    "title": "Machine Learning and Remote Sensing for\u2026 Babalola et al., NIGERIAN JOURNAL OF PHYSICS NJP VOLUME 35(4)",
+    "abstract": "Gully erosion remains one of the most destructive forms of land degradation in tropical environments, threatening agricultural productivity, infrastructure, ecosystem services, and human settlements. Southeast Nigeria represents one of the world's most vulnerable gully erosion hotspots owing to its highly erodible geological formations, intense rainfall, rapid land-use change, and increasing anthropogenic disturbances. Recent advances in machine learning (ML), cloud computing, and Earth observation technologies have significantly improved gully erosion susceptibility mapping (GESM); however, the extent to which these innovations have been adopted within Southeast Nigeria remains unclear. This study presents a PRISMA 2020-compliant systematic review of machine learning- based GESM studies published between January 2015 and June 2026. A comprehensive literature search was conducted using structured Boolean search strategies. Random Forest and Extreme Gradient Boosting emerged as the most frequently applied algorithms, and consistently achieving Area Under the Receiver Operating Characteristic Curve (AUC) values ranging from 0.88 to 0.98. Sentinel-2 multispectral imagery and the Shutt",
+    "pages": 14,
+    "size_mb": 0.55,
+    "year": "2026",
+    "category": "AI, Physics-Informed ML & Computational Hydrology"
+  },
+  {
+    "filename": "From_Conceptual_Hydrologic_Models_to_Conceptually_Interpreta.pdf",
+    "filepath": "papers\\From_Conceptual_Hydrologic_Models_to_Conceptually_Interpreta.pdf",
+    "title": "Manuscript Submitted to arXiv From Conceptual Hydrologic Models to Conceptually Interpretable Neural Networks: A Snow\u2013Water Mass\u2013Conserving\u2013Perceptron Framework for Discovering",
+    "abstract": "The Mass-Conserving Perceptron (MCP) establishes a modeling paradigm in which conceptual hydrologic models can be reformulated as physically constrained, conceptually interpretable neural networks. Here, we develop a snow-water MCP network framework and evaluate it across 513 CAMELS-US basins. We first recast a coupled two-state SOIL-MCP and SNOWMCP conceptual model as a mass-conserving neural network and show that the hydrologic-model and neural-network formulations achieve comparable predictive performance. We then examine cross-node state-information sharing within two-state HYDROMCP architectures and evaluate broader single-layer networks constructed from three types of interpretable MCP units with one to five states. Across CONUS, the median \ud835\udc3e\ud835\udc3a\ud835\udc38!! increases from 0.82 for one-state networks to 0.89 for two-state networks and 0.90 for five-state networks, suggesting diminishing aggregate gains beyond two states. Basin- specific MCP and LSTM selection yields the same median \ud835\udc3e\ud835\udc3a\ud835\udc38!! of 0.90, while the selected MCP networks use fewer parameters on average. Complementary AIC- and KGE-based selection identifies compact, basin-specific directed-graph representations that balance predict",
+    "pages": 125,
+    "size_mb": 45.7,
+    "year": "2026",
+    "category": "AI, Physics-Informed ML & Computational Hydrology"
+  },
+  {
+    "filename": "No_Reduction_of_Tropical_Convection_with_Warming.pdf",
+    "filepath": "papers\\No_Reduction_of_Tropical_Convection_with_Warming.pdf",
+    "title": "No Reduction of Tropical Convection with Warming Expected from Theory or Models Zachary McGraw1 and Bla\u017e Gasparini1 1 Department of Meteorology and Geophysics, University of Vienna, Austria",
+    "abstract": "Theoretical arguments have for decades anticipated substantial weakening of tropical convection as the surface warms, yet convection-resolving models show no robust change in column-integrated convective mass transport and an increase in transported volume. Here we reconcile this apparent discrepancy by demonstrating that the two main theoretical arguments identify a redistribution, rather than a straightforward reduction, of convective motions. A commonly invoked hydrological argument accordingly captures a weakening at a single altitude that is offset by strengthening aloft as the troposphere expands upward. Further, reduced convective mass flux following atmospheric structures that rise with warming simply reflects decreasing air density aloft. Convective motions and transported water are shown to be highly invariant to surface warming along isotherms, and the ability to predict convective responses at individual altitudes is a manifestation of this invariance. Together, these findings recast and simplify long-standing expectations of how the tropical atmosphere will respond to warming. Plain Language Summary Convection is the rising motion of warm, moist air that produces cloud",
+    "pages": 23,
+    "size_mb": 0.81,
+    "year": "2026",
+    "category": "AI, Physics-Informed ML & Computational Hydrology"
+  },
+  {
+    "filename": "Evaluation_of_Rural_Health_Tourism_SuitabilityBased_on_the_M.pdf",
+    "filepath": "papers\\Evaluation_of_Rural_Health_Tourism_SuitabilityBased_on_the_M.pdf",
+    "title": "ONLINE PUBLICATION DATE: 2026-08-10 *e-mail: 510028184@qq.com Tel.: +8615983177199",
+    "abstract": "In ecologically fragile and ethnic minority regions, pursuing place-based development models through rural health tourism is instrumental to realizing regional sustainable development. We assessed the suitability of rural health tourism in the Panxi Region for 2023 using the MaxEnt model and further clarified the influencing trends of each environmental factor based on response curves. The main findings are as follows: (1) Rural health tourism suitability in the Panxi Region displays obvious spatial heterogeneity. Areas with high and moderate suitability are distributed predominantly in regions with abundant resource endowments, especially along major river systems. The majority of the study area is non-suitable or marginally suitable, which is mainly constrained by ecological sensitivity and local economic development levels. (2) All environmental factors present differentiated nonlinear response patterns. Population density is positively associated with suitability probability, whereas longer travel time to medical facilities is negatively associated with suitability probability, while slope and distance to roads show negative correlations. The response to average annual precipit",
+    "pages": 14,
+    "size_mb": 1.98,
+    "year": "2026",
+    "category": "AI, Physics-Informed ML & Computational Hydrology"
+  },
+  {
+    "filename": "Restimation_in_a_Linear_Model_with_Autoregressive.pdf",
+    "filepath": "papers\\Restimation_in_a_Linear_Model_with_Autoregressive.pdf",
+    "title": "R-estimation in a Linear Model with Autoregressive Errors Jana Jure\u02c7ckov\u00b4a\u22171, Hira L. Koul 2, Jan Picek\u20203 1 Institute of Information Theory and Automation, Czech Academy of Sciences,",
+    "abstract": "In the linear regression model, we construct a nonparametric estimate of the regression parameter vector \u03b2 that is insensitive to a possible nuisance autoregression in the model errors. The main tool for estimating \u03b2 is based on the autoregression rank scores of the model. The resulting estimator is invariant to the autoregression parameters and thus remains insensitive to potential hidden linear trends or other structured disturbances, which frequently occur in economic, hydrological, and related applications. 1",
+    "pages": 14,
+    "size_mb": 0.84,
+    "year": "2026",
+    "category": "AI, Physics-Informed ML & Computational Hydrology"
+  },
+  {
+    "filename": "Rainfall_Sensing_Mobile_Communication_Signals_2026.pdf",
+    "filepath": "papers\\Rainfall_Sensing_Mobile_Communication_Signals_2026.pdf",
+    "title": "Rainfall Sensing via Mobile Communication Signals Zhongqin Wang, Member, IEEE, J. Andrew Zhang, Senior Member, IEEE, Kai Wu, Member, IEEE, Y. Jay Guo, Life Fellow, IEEE",
+    "abstract": "cal observation, disaster warning, and environmental sensing, but conventional rain gauges and weather radars suffer from sparse deployment and high infrastructure costs. This paper proposes PMN-RainSense, a rainfall sensing framework using sub-6-GHz mobile communication signals that supports prac- tical single-antenna deployment. Unlike attenuation-based ap- proaches, which are unreliable at sub-6 GHz because rain- induced attenuation over short mobile access links is only on the order of hundredths of a decibel, the proposed framework exploits fine-grained dynamics. A spectral\u2013temporal channel state information (CSI) compensation method suppresses packet-wise timing and phase distortions while preserving sensing-relevant information. Rainfall-sensitive features are extracted from the delay\u2013Doppler domain to mitigate environmental interference, with angle-domain filtering as an optional extension for multi- antenna receivers. Under bandwidth and antenna constraints, rainfall-correlated Doppler fluctuations serve as the dominant sensing signature, while Doppler-domain normalization improves robustness across links and deployments. Controlled WiFi ex-",
+    "pages": 13,
+    "size_mb": 40.04,
+    "year": "2026",
+    "category": "AI, Physics-Informed ML & Computational Hydrology"
+  },
+  {
+    "filename": "Vacuum_Moisture_Swing_Direct_Air_Capture_A.pdf",
+    "filepath": "papers\\Vacuum_Moisture_Swing_Direct_Air_Capture_A.pdf",
+    "title": "Vacuum Moisture Swing Direct Air Capture: A Low-Thermal, Water- Managed Pathway for Scalable CO\u2082 Removal Stephano Sinyangwe1, Sierra Binney1, Gray Becker1, Peter Schulze2, Jennifer L. Wade1*",
+    "abstract": "Direct Air Capture (DAC) remains one of the most energy-intensive carbon removal approaches, with most systems relying on high-temperature amine or metal oxide regeneration. Here we present the first comprehensive evaluation of a feasible, low-temperature DAC process that exploits the moisture-swing mechanism to reversibly capture and release CO2 using commercial quaternary ammonium exchange resins (IRA 900). The proposed vacuum moisture swing (VMS) sorption technology introduces a five-step process that replaces high-temperature CO2 regeneration with a low-temperature water vapor stripping step driven by vacuum evaporation. Using experimentally measured water and CO2 sorption kinetics, the cyclic model was optimized across a range of air relative humidities (20-80%) and kinetic regimes (0.5x-2.0x baseline). Results show that optimized VMS operation in 20% RH air achieves CO2 productivities of 0.2-0.6 kg CO2 \u2219kgs \u22121 \u2219d\u22121, comparable to or exceeding those of high-temperature amine sorbent systems, yet without the addition of external heat. The required electrical energy to drive the gas / vapor flows and compress CO2 to 0.1MPa spans a broader range of 1-15 MJ \u2219kgCO2 \u22121 , due to a st",
+    "pages": 48,
+    "size_mb": 2.15,
+    "year": "2026",
+    "category": "AI, Physics-Informed ML & Computational Hydrology"
+  },
+  {
+    "filename": "Zhang_2026_Suspended_Sediment_Monitoring_Basins.pdf",
+    "filepath": "papers\\Zhang_2026_Suspended_Sediment_Monitoring_Basins.pdf",
+    "title": "TYPE Original Research PUBLISHED 07 August 2026",
+    "abstract": "DOI 10.3389/feart.2026.1867548 OPEN ACCESS EDITED BY Shi Lidi, University of Toronto, Canada REVIEWED BY Khosro Morovati, Tsinghua University, China Anson Chow, University of Toronto, Canada *CORRESPONDENCE Qiang Yuan, qiangyuan1989@sina.cn",
+    "pages": 15,
+    "size_mb": 1.93,
+    "year": "2026",
+    "category": "Environmental & Hydroclimatic Studies"
+  },
+  {
+    "filename": "Predictability_of_large_scale_extreme_droughts_from_global_b.pdf",
+    "filepath": "papers\\Predictability_of_large_scale_extreme_droughts_from_global_b.pdf",
+    "title": "TYPE Original Research PUBLISHED 10 August 2026",
+    "abstract": "DOI 10.3389/frwa.2026.1911791 OPEN ACCESS EDITED BY Alexandra Gemitzi, Democritus University of Thrace, Greece REVIEWED BY Qibo Xu, University of California, Los Angeles (UCLA), United States Armand Tchinda Feudjio, The University of Bamenda, Cameroon *CORRESPONDENCE Jan N. Weber",
+    "pages": 18,
+    "size_mb": 4.53,
+    "year": "2026",
+    "category": "Environmental & Hydroclimatic Studies"
+  },
+  {
+    "filename": "A_Multiobjective_Water_Allocation_Model_for_Economic_Efficiency.pdf",
+    "filepath": "papers\\A_Multiobjective_Water_Allocation_Model_for_Economic_Efficiency.pdf",
+    "title": "A Multiobjective Water Allocation Model for Economic E\ufb03ciency and Environmental Sustainability: Case Study Nahid Sultana \u2217",
+    "abstract": "due to competing demands for agricultural production, groundwater sustainability, and environmental \ufb02ow requirements, particularly under hydrologic variability and climate un- certainty. Addressing these challenges requires optimization frameworks that can jointly determine optimal crop allocation, groundwater pumping, and environmental \ufb02ow releases while maintaining economic and hydrological feasibility. However, existing hydro-economic models, including the widely used Lewis and Randall formulation, may overestimate net bene\ufb01ts by allowing infeasible negative pumping and surface water allocations. We extend the Lewis and Randall framework by reformulating groundwater pumping and surface wa- ter use as non-negative, demand-driven decision variables and by explicitly incorporating environmental \ufb02ow and canal capacity constraints. Three models are developed to maxi- mize economic bene\ufb01t, minimize environmental de\ufb01cits, and a multiobjective model that evaluates the trade-o\ufb00s between these two objectives. An illustrative test case examin- ing optimal crop area allocation and environmental \ufb02ow management across dry, average, and wet years, using data from the Rajshahi Barind Tract in n",
+    "pages": 37,
+    "size_mb": 0.34,
+    "year": "2026",
+    "category": "Groundwater, Hydrogeology & Aquifer Dynamics"
+  },
+  {
+    "filename": "A_Responsible_Artificial_Intelligence_Framework_for_Groundwater.pdf",
+    "filepath": "papers\\A_Responsible_Artificial_Intelligence_Framework_for_Groundwater.pdf",
+    "title": "A Responsible Artificial Intelligence Framework for Groundwater Modeling Chong Chen1,*, Yulu Zhang1, Qingxi Guo1, Yihan Liu1",
+    "abstract": "(AI) have sparked intense discussions on how to deploy responsible AI systems in a manner aligned with human values and ethical standards. Compared to fields like healthcare, energy, or finance, the application of AI in groundwater is relatively limited, and research on responsible AI is even more scarce. Taking the middle reaches of the Heihe River Basin as the study area, this paper proposes six Responsible AI principles\u2014transparency, technical robustness, privacy governance, fairness, accountability, and sustainability. LSTM and Transformer time-series models are developed using multi-source hydrometeorological data, and validated via post-hoc interpretability, Monte Carlo simulation, and scenario analysis. The results show that Transformer outperforms LSTM in accuracy, robustness, and interpretability, demonstrating the operability and practical value of Responsible AI principles in groundwater prediction to support sustainable water management under climate change and human activities.",
+    "pages": 29,
+    "size_mb": 17.54,
+    "year": "2026",
+    "category": "Groundwater, Hydrogeology & Aquifer Dynamics"
+  },
+  {
+    "filename": "Bayesian_Models_for_Joint_Selection_of_Features_and.pdf",
+    "filepath": "papers\\Bayesian_Models_for_Joint_Selection_of_Features_and.pdf",
+    "title": "BAYESIAN MODELS FOR JOINT SELECTION OF FEATURES AND AUTO-REGRESSIVE LAGS: THEORY AND APPLICATIONS IN ENVIRONMENTAL AND FINANCIAL FORECASTING",
+    "abstract": "We develop a Bayesian framework for variable selection in linear regression models with autocor- related errors that accommodate both lagged covariates and autoregressive error structures. This setting arises naturally in many time-series applications where the response is influenced not only by contemporaneous and past values of explanatory variables but also by persistent stochastic shocks. Examples include financial modeling (e.g., logarithmic returns of asset prices), hydrological forecast- ing (e.g., groundwater dynamics), and meteorological applications (e.g., temperature or precipitation patterns), where capturing temporal dependencies is critical for accurate inference and prediction. Our methodology employs a hierarchical Bayesian model with spike-and-slab priors to simultane- ously select relevant covariates and lagged error terms. To address the computational challenges of high-dimensional model spaces, we propose an efficient two-stage Markov Chain Monte Carlo (MCMC) algorithm that separates the sampling of variable inclusion indicators and model parameters. Theoretical analysis establishes posterior selection consistency under mild regularity conditions, even when the ",
+    "pages": 33,
+    "size_mb": 6.25,
+    "year": "2025",
+    "category": "Groundwater, Hydrogeology & Aquifer Dynamics"
+  },
+  {
+    "filename": "Geospatial_Diffusion_for_Land_Cover_Imperviousness_Change_Forecasting.pdf",
+    "filepath": "papers\\Geospatial_Diffusion_for_Land_Cover_Imperviousness_Change_Forecasting.pdf",
+    "title": "Geospatial Diffusion for Land Cover Imperviousness Change Forecasting Debvrat Varshney\u2217",
+    "abstract": "Land cover, both present and future, has a significant effect on several important Earth system processes. For example, the Urban Heat Island effect, driven in large part by impervious surfaces, can increase urban land surface temperatures by up to 5 \u00b0C. Impervious surfaces heat up and speed up surface water runoff and reduce groundwater infiltration, with concomitant effects on regional hy- drology and flood risk. While regional Earth System models have increasing skill at forecasting hydrologic and atmospheric processes at high resolution in future climate scenarios, our ability to forecast land-use and land-cover change (LULC), a critical input to risk and consequences assessment for these scenarios, has lagged behind. In this paper, we propose a new paradigm exploiting Generative AI (GenAI) for land cover change forecasting by framing LULC forecasting as a data synthesis problem conditioned on historical and auxiliary data-sources. We discuss desirable properties of gen- erative models that fundament our research premise, and demon- strate the feasibility of our methodology through experiments on imperviousness forecasting using historical data covering the en- tire conterminou",
+    "pages": 11,
+    "size_mb": 12.28,
+    "year": "2026",
+    "category": "Groundwater, Hydrogeology & Aquifer Dynamics"
+  },
+  {
+    "filename": "Groundwater_feedbacks_on_ice_sheets_and_subglacial_hydrology.pdf",
+    "filepath": "papers\\Groundwater_feedbacks_on_ice_sheets_and_subglacial_hydrology.pdf",
+    "title": "Groundwater feedbacks on ice sheets and subglacial hydrology",
+    "abstract": "The dynamics of many of Antarctica\u2019s glaciers are modulated by a hydrological system at the base of the ice. Sedimentary basins beneath the ice bed contribute to the water budget in this hydrological system by discharging or taking up water. However, sedimentary basins are not included in most current models of ice dynamics, and little is known about their effect. In this paper we develop an idealised model of a glacier whose sliding is coupled to a subglacial hydrological system, which includes a sedimentary basin. We find that groundwater discharge (exfiltration) and recharge (infiltration) are controlled by the shape of the ice sheet and of the sedimentary basin, and that exfiltration promotes sliding whereas infiltration hinders it. Overall, the presence of a sedimentary basin leads to thicker and slower-flowing ice in the steady state. We also find that, when the ice sheet is undergoing retreating, groundwater exfiltration can lead to a positive feedback which accelerates this retreat. Our results shed light on the potential role and importance of Antarctic sedimentary basins, and how these might be incorporated into existing models of ice and subglacial hydrology. 1",
+    "pages": 25,
+    "size_mb": 1.23,
+    "year": "2026",
+    "category": "Groundwater, Hydrogeology & Aquifer Dynamics"
+  },
+  {
+    "filename": "A_vertically_integrated_model_with_phase_change_for.pdf",
+    "filepath": "papers\\A_vertically_integrated_model_with_phase_change_for.pdf",
+    "title": "Journal of XXX, Vol. XX, No. X, 20XX A vertically integrated model with phase change for aquifers in cold firn",
+    "abstract": "icantly to sea-level rise, yet the processes governing its transport and retention within cold firn remain poorly constrained, particularly in multiple dimensions. Here we present a multidimensional, vertically integrated modeling framework for aquifers in cold firn that incorporates phase change and residual trapping of liquid water. This mathematical framework, together with its numerical implementation, extends terrestrial groundwater models to describe aquifers expanding within otherwise cold firn, highlighting the analogous physics gov- erning both systems. We derive semi-analytical solutions for finite-volume aquifers and validate them against numerical simulations and higher-fidelity model results. These solutions elucidate key features of meltwater dynamics and provide benchmarks for firn hydrologic models. We further demonstrate the three-dimensional expansion of an aquifer in cold, heterogeneous firn. Both the semi-analytical and numerical results show that lateral aquifer propagation slows at lower initial firn temperatures due to porosity reduction and associated loss of liquid water from freezing. Overall, this framework provides new insights into the formation and exp",
+    "pages": 36,
+    "size_mb": 8.7,
+    "year": "2026",
+    "category": "Groundwater, Hydrogeology & Aquifer Dynamics"
+  },
+  {
+    "filename": "Inelastic_dilatancy_as_a_mechanism_for_coseismic_fluid.pdf",
+    "filepath": "papers\\Inelastic_dilatancy_as_a_mechanism_for_coseismic_fluid.pdf",
+    "title": "Manuscript accepted to Journal of Geophysical Research \u2013 Solid Earth Inelastic dilatancy as a mechanism for coseismic fluid depressurization of a shallow fault zone",
+    "abstract": "Hydrologic observations and experimental studies indicate that inelastic dilation from coseismic fault damage can cause substantial pore pressure reduction, yet most near-fault hydromechanical models ignore such inelastic effects. Here, we present a 3-D groundwater flow model incorporating the effects of inelastic dilation based on an earthquake dynamic rupture model with inelastic off- fault deformation, both on pore pressure and permeability enhancement. Our results show that inelastic dilation causes mostly notable depressurization within ~1 km off the fault at shallow Manuscript accepted to Journal of Geophysical Research \u2013 Solid Earth 2 depths (< 3 km). We found agreement between our model predictions and recent field observations, namely that both sides of the fault can experience large-magnitude (~tens of meters) water level drawdowns. For comparison, simulations considering only elastic strain produced smaller water level changes (~several meters) and contrasting signs of water level change on either side of the fault. The models show that inelastic dilation is a mechanism for coseismic fault depressurization at shallow depths. While the inelastic dilation is a localized ph",
+    "pages": 68,
+    "size_mb": 2.46,
+    "year": "2026",
+    "category": "Groundwater, Hydrogeology & Aquifer Dynamics"
+  },
+  {
+    "filename": "Poroelastic_aquifer_response_drives_seasonal_vertical_land_m.pdf",
+    "filepath": "papers\\Poroelastic_aquifer_response_drives_seasonal_vertical_land_m.pdf",
+    "title": "Poroelastic aquifer response drives seasonal vertical land motion in southern Louisiana",
+    "abstract": "Pritom Sarma1,2\u2217, Eduardo Arzabala2, Carolina Hurtado-Pulido6, Einat Aharonov1,3 Renaud Toussaint4,3, Stanislav Parez5, Cynthia Ebinger2 1Institute of Earth Sciences, Hebrew University of Jerusalem, Jerusalem, Israel. 2Department of Earth and Environmental Sciences, Tulane University, New Orleans, LA, USA. 3PoreLab, The Njord Centre, Departments of Physics and Geosciences, University of Oslo, Oslo, Norway. 4Universit\u00b4e de Strasbourg, CNRS, ENGEES, Institut Terre et Environnement de Strasbourg, UMR 7063, Strasbourg, France. 5Faculty of Science, Jan Evangelista Purkyn\u02c7e University in \u00b4Ust\u00b4\u0131 nad Labem, \u00b4Ust\u00b4\u0131 nad Labem, Czech Republic. 6Department of Earth, Atmospheric, and Planetary Sciences, Purdue University, West Lafayette, IN, USA. \u2217Corresponding author. Email: pritom.sarma@mail.huji.ac.il Coastal Louisiana is sinking, amplifying flooding and land loss, yet the seasonal component of this motion resists attribution. Satellite geodetic records at Baton Rouge from 2004 to 2024 reveal long-term subsidence of \u22122.69 \u00b1 0.69 mm yr\u22121",
+    "pages": 28,
+    "size_mb": 17.44,
+    "year": "2026",
+    "category": "Groundwater, Hydrogeology & Aquifer Dynamics"
+  },
+  {
+    "filename": "Prorata_mechanisms_in_groundwater_markets.pdf",
+    "filepath": "papers\\Prorata_mechanisms_in_groundwater_markets.pdf",
+    "title": "Pro-rata mechanisms in groundwater markets Igor Cialenco \u2217 Michael Ludkovski \u2020",
+    "abstract": "We introduce a pro-rata rationing mechanism for resolving supply-demand imbalances in groundwater markets, extending the price-formation model of Cialenco and Lud- kovski (2025). We show that under the pro-rata distribution, every price is a Nash equilibrium, thereby pro-rata approach provides a rationing device whenever supply and demand fail to match. By the very nature of the pro-rata mechanism, the resolu- tion of supply-demand imbalances is unique, and the proportional rationing approach is fair. First, we consider markets with exogenous restrictions on the amounts each agent may buy and/or sell, deriving closed-form first-best consumption and characterizing how one-sided caps monotonically shift the Pareto price, while two-sided caps have an ambiguous effect. These results give the market-maker (or regulator) a tool for studying the impact of trading restrictions on price formation. Second, we study a leader-follower setting in which a regulator (the leader) sets the trading price by optimizing first its own objective, such as balancing social welfare against a target traded volume or a fair- ness objective such as Gini-type disparity measure across farmers\u2019 profitability, wh",
+    "pages": 27,
+    "size_mb": 2.81,
+    "year": "2026",
+    "category": "Groundwater, Hydrogeology & Aquifer Dynamics"
+  },
+  {
+    "filename": "Reconstructing_GRACE_Terrestrial_Water_Storage_with_SpatioTemporal_Graph.pdf",
+    "filepath": "papers\\Reconstructing_GRACE_Terrestrial_Water_Storage_with_SpatioTemporal_Graph.pdf",
+    "title": "Reconstructing GRACE Terrestrial Water Storage with Spatio-Temporal Graph Neural Networks: An Application to South America [Applications]",
+    "abstract": "Terrestrial water storage (TWS) integrates snow, soil moisture, surface water, and groundwater and is a key indicator of how cli- mate variability and human activity reshape the global water cycle. The GRACE and GRACE-FO satellite missions provide the only direct, globally consistent observations of TWS change, but their record only begins in 2002 which is too short for many climate-scale analyses. We present a deep learning application that reconstructs monthly GRACE-like TWS anomalies (TWSA) back to 1940 by learning the relationship between daily ERA5 meteorological forc- ing (precipitation, evapotranspiration, runoff) and monthly GRACE observations. In contrast to prior reconstruction approaches based on grid-cell-wise regression, CNNs, or LSTMs, we adapt a multi- variate time series graph neural network (MTGNN) architecture, which was originally developed for mobility and traffic forecasting on urban sensor networks to this satellite-geodesy task. Spatial de- pendencies are encoded in a static, interpretable hybrid adjacency matrix that combines geodesic proximity with lagged correlations of climatic time series, capturing both local hydrological coupling and large-scale teleco",
+    "pages": 12,
+    "size_mb": 6.21,
+    "year": "2026",
+    "category": "Groundwater, Hydrogeology & Aquifer Dynamics"
+  },
+  {
+    "filename": "Unsupervised_Detection_of_Groundwater_Storage_Anomalies_in.pdf",
+    "filepath": "papers\\Unsupervised_Detection_of_Groundwater_Storage_Anomalies_in.pdf",
+    "title": "Unsupervised Detection of Groundwater Storage Anomalies in",
+    "abstract": "characterized due to limited long-term in-situ observations. This study investigates groundwater storage anomalies using GRACE- derived data from 2004\u20132024 combined with statistical analysis and unsupervised machine learning. Groundwater anomalies were standardized using Z-scores, while an ensemble-based Iso- lation Forest framework was applied for anomaly detection. The results revealed substantial temporal variability, with persistent groundwater deficits during 2004\u20132009 followed by increasing positive anomalies after 2018. A total of 12 anomalous months were identified, comprising 5 deficit and 7 surplus events, with the strongest anomalies associated with groundwater deficits. Spatial analysis showed more frequent deficit anomalies in northern Ghana and stronger surplus occurrence in southern regions. Comparison with statistical thresholds further indicated that the machine learning framework captured additional subtle devia- tions beyond conventional threshold-based methods. Overall, the integration of GRACE observations with unsupervised anomaly detection provides a practical framework for groundwater mon- itoring in data-scarce environments.",
+    "pages": 8,
+    "size_mb": 4.23,
+    "year": "2026",
+    "category": "Groundwater, Hydrogeology & Aquifer Dynamics"
+  },
+  {
+    "filename": "Fakana_2026_Soil_Erosion_Hydrology_Ethiopian_Basins.pdf",
+    "filepath": "papers\\Fakana_2026_Soil_Erosion_Hydrology_Ethiopian_Basins.pdf",
+    "title": "1 / 23 OPEN ACCESS Citation: Fakana ST, Falta FF, Dofee AA (2026)",
+    "abstract": "Soil requires focused management to ensure long-term productivity and ecological balance. The Revised Universal Soil Loss Equation (RUSLE) is an effective empirical model that, when combined with Remote Sensing (RS) techniques and Geographi\u00ad cal Information Systems (GIS), enables the analysis of annual soil loss by integrat\u00ad ing RUSLE factors and indices within the ArcGIS environment. In the current study region, limited attempts have been made to assess annual soil loss rates, identify erosion hotspots, and provide spatially explicit evidence to guide soil and water conservation measures. However, most inhabitants heavily depend on agriculture for survival. The RUSLE model was applied, integrating GIS and RS, to understand erosion rates and the spatial distribution of erosion intensity. The input datasets were acquired from diverse sources, including NASA POWER, FAO DSMW, USGS Earth Explorer, and the European Space Agency (ESA) LULC, and analyzed using ArcGIS 10.8.2 software. The finding unveiled that about 43,890.3 ha (9.77%), 30,388.14 ha (6.76%), and 1,459.17 ha (0.32%) of the study region experience high, very high, and severe soil erosion intensity, which requires effective c",
+    "pages": 23,
+    "size_mb": 2.74,
+    "year": "2026",
+    "category": "Satellite Remote Sensing & Earth Observation"
+  },
+  {
+    "filename": "Observing_water_level_extremes_in_the_Mekong_River.pdf",
+    "filepath": "papers\\Observing_water_level_extremes_in_the_Mekong_River.pdf",
+    "title": "Observing water level extremes in the Mekong River Basin: The bene\ufb01t of long-repeat orbit missions in a multi-mission satellite altimetry approach",
+    "abstract": "Single-mission altimetric water level observations of rivers are spatially and tem- porally limited, and thus they are often unable to quantify the full extent of extreme \ufb02ood events. Moreover, only missions with a short-repeat orbit, such as Envisat, Jason-2, or SARAL, could provide meaningful time series of water level variations directly. However, long or non-repeat orbit missions such as CryoSat-2 have a very dense spatial resolution under the trade-o\ufb00of a repeat time insu\ufb03cient for time series extraction. Combining data from multiple al- timeter missions into a multi-mission product allows for increasing the spatial and temporal resolution of the data. In this study, we combined water level data from CryoSat-2 with various observations from other altimeter missions in the Mekong River Basin between 2008 and 2016 into one multi-mission water level time series using the approach of universal kriging. In contrast to former multi-mission altimetry methods, this approach allows for the incorporation of CryoSat-2 data as well as data from other long or non-repeat orbit missions, such as Envisat-EM or SARAL-DP. Additionally, for the \ufb01rst time, data from tributaries are incorporated. ",
+    "pages": 23,
+    "size_mb": 1.3,
+    "year": "2026",
+    "category": "Satellite Remote Sensing & Earth Observation"
+  },
+  {
+    "filename": "Liu_2026_Hydrological_Extremes_China_Basins.pdf",
+    "filepath": "papers\\Liu_2026_Hydrological_Extremes_China_Basins.pdf",
+    "title": "1 / 21 Recent Sharp Rise in Inhomogeneous Hydrological Extremes Stress Vegetation Growth in China",
+    "abstract": "The intensifying spatial inhomogeneity of rainfall under greenhouse warming implies that more inhomogeneous hydrological extremes (IHEs), i.e., coexistence of extreme rainfall or drought, may be triggered. While vegetation growth in China is sensitive to hydrological hazards, the variability of IHEs and their ecological impacts remain underexplored. Here, we find a significant increase in IHEs during China\u2019s growing season since 2000 (+2.1 events or +14.52 days per decade), with a rapid sharp rise to an annual average of 6.4 events or 42.0 days in the past five years. The primary driver is the enhanced inhomogeneity of moisture-dynamic coupled weather conditions, overlapping with a northward shift of climatological precipitation distribution. This results in a \u201cWet-North and Dry-South\u201d pattern of IHE impacts, which poses severe and asymmetric threats to vegetation growth in China, with the expansion of drought areas exerts stronger stress on vegetation than the compensatory effects of rainfall. Our findings suggest that the sharp rises of IHEs tend to yield net negative impacts on vegetation growth, highlighting the need for stronger hydrological management to reduce future risks.",
+    "pages": 21,
+    "size_mb": 2.56,
+    "year": "2026",
+    "category": "Streamflow, Runoff & Hydrological Forecasting"
+  },
+  {
+    "filename": "A_plugandplay_generative_framework_for_multisatellite_precipitation_estimation.pdf",
+    "filepath": "papers\\A_plugandplay_generative_framework_for_multisatellite_precipitation_estimation.pdf",
+    "title": "A plug-and-play generative framework for multi-satellite precipitation estimation Yunfan Yang1,2,3\u2020, Haofei Sun4\u2020, Xiuyu Sun3, Wei Han5,6*,",
+    "abstract": "Reliable precipitation monitoring is essential for disaster risk reduction, water resources management, and agricultural decision-making. Multi-source satellite observations, particularly the combination of geostationary infrared and passive microwave measurements, have become a primary means of precipitation detec- tion. Traditional multi-source satellite precipitation estimation methods remain computationally inefficient, and many deep learning methods lack the flexibility to incorporate new sensors without retraining the full model. Here we introduce PRISMA (Precipitation Inference from Satellite Modalities via generAtive mod- eling), a plug-and-play latent generative framework for multi-sensor precipitation estimation. PRISMA learns an unconditional precipitation prior from IMERG Final fields and constrains it through independently trained, sensor-specific con- ditional branches, allowing new observation sources to be incorporated without retraining the generative backbone. Applied to FY-4B AGRI infrared and GPM GMI microwave observations, PRISMA improves Critical Success Index by up to 40.3% and reduces root-mean-square error by 22.6% relative to infrared-only estimation withi",
+    "pages": 41,
+    "size_mb": 32.01,
+    "year": "2026",
+    "category": "Streamflow, Runoff & Hydrological Forecasting"
+  },
+  {
+    "filename": "Exploring_Uncertainty_Propagation_in_Coupled_Hydrologic_and_Hydrodynamic.pdf",
+    "filepath": "papers\\Exploring_Uncertainty_Propagation_in_Coupled_Hydrologic_and_Hydrodynamic.pdf",
+    "title": "Advances in Water Resources, In Press, June 2026 Exploring Uncertainty Propagation in Coupled Hydrologic and Hydrodynamic Systems via Distribution-Agnostic State Space Analysis",
+    "abstract": "Accurate overland runoff and infiltration predictions are critical for effective water resources management, in particular for urban flood management. However, the inherent uncertainty in rainfall patterns, soil properties, and initial conditions makes reliable flood forecasting a challenging task. This paper presents a framework for quantifying the impact of these uncertainties on hydrologic and hydrodynamic simulations via a state space approach based on a differential algebraic equation (DAE) formulation that couples surface and subsurface constraints with the governing dynamics. Under this formulation, the complex interactions between overland flow and infiltration dynamics are captured in realtime. To account for uncertainty in inputs and parameters, the proposed framework quantifies and propagates these uncertainties through the DAE model formulation under partial measurements. The effectiveness of the approach is demonstrated through a series of numerical experiments on synthetic and real world catchments, highlighting its ability to provide probabilistic estimates of watershed state conditions while accounting for uncertainty. An important aspect of the proposed methods is ",
+    "pages": 23,
+    "size_mb": 5.13,
+    "year": "2026",
+    "category": "Streamflow, Runoff & Hydrological Forecasting"
+  },
+  {
+    "filename": "Catching_the_Imposter_SelfSupervised_Learning_of_Physical.pdf",
+    "filepath": "papers\\Catching_the_Imposter_SelfSupervised_Learning_of_Physical.pdf",
+    "title": "Catching the Imposter: Self-Supervised Learning of Physical Coherence with Cross-Entity Feature Permutations Aleksei Rozanov, Arvind Renganathan, Vipin Kumar",
+    "abstract": "Scientific data often describe entities whose features are jointly governed by the laws of physics, yet existing self-supervised learning (SSL) objectives largely ignore this physical coher- ence. We introduce imposter, a discriminative pretext task that replaces subsets of an entity\u2019s features with real observations donated by another entity and trains the encoder to identify the swapped features. Because every donated value is indi- vidually plausible, the task can only be solved by learning cross-feature physical dependencies. We evaluate the proposed objectives on global ERA5-Land reanalysis data using 21 en- vironmental variables and assess the learned representations on seven downstream tasks spanning climate classification, carbon flux estimation, and streamflow prediction. Our study includes, to our knowledge, the first systematic comparison of self-supervised objectives for land-surface modeling under a shared architecture and pre-training budget. We find that the most effective pretext task depends on the downstream task family rather than any single objective\u2019s superiority, and that imposter provides complementary information when com-",
+    "pages": 11,
+    "size_mb": 0.55,
+    "year": "2026",
+    "category": "Streamflow, Runoff & Hydrological Forecasting"
+  },
+  {
+    "filename": "Context_Aware_Concept_Distillation_for_Trustworthy_Flood_Pre.pdf",
+    "filepath": "papers\\Context_Aware_Concept_Distillation_for_Trustworthy_Flood_Pre.pdf",
+    "title": "Context Aware Concept Distillation for Trustworthy Flood Pre",
+    "abstract": "Effective flood risk management relies on accurate forecasting, yet the \u201dblack box\u201d nature of state- of-the-art Deep Learning models creates a barrier to trust and accountability in high-stakes public safety decisions. While existing Explainable AI (XAI) methods offer local attributions, they fail to provide the verifiable, operationally meaning- ful causal narratives required by disaster response authorities. To address this societal challenge, we propose Context-Aware Concept Distillation (CACD), a framework developed in collaboration with domain experts to distill opaque LSTMs into interpretable, hydrology-aware surrogate models. We introduce an unsupervised pipeline to discover a \u201dHydrological Language\u201d and a Residual Hy- pernetwork that dynamically modulates these con- cepts based on static basin characteristics. Evalu-",
+    "pages": 9,
+    "size_mb": 2.08,
+    "year": "2026",
+    "category": "Streamflow, Runoff & Hydrological Forecasting"
+  },
+  {
+    "filename": "Asymptotic_differences_between_a_lumped_probabilitydistributed_rainfallrunoff_model.pdf",
+    "filepath": "papers\\Asymptotic_differences_between_a_lumped_probabilitydistributed_rainfallrunoff_model.pdf",
+    "title": "Draft: 5 December 2023",
+    "abstract": "1 Asymptotic differences between a lumped probability-distributed rainfall-runoff model and a physical benchmark model Piotr Morawiecki\u2020 and Philippe Trinh\u2021 Department of Mathematical Sciences, University of Bath, Bath BA2 7AY, UK (Received xx; revised xx; accepted xx) Typically, physical and conceptual rainfall-runoff models are developed independently and are based on different, though not entirely incompatible, governing principles. In this work, we perform a systematic asymptotic analysis of a typical conceptual rainfall-runoff model and compare its results to a physical model. The setting for this experiment is a geometrically simplified benchmark catchment consisting of a two-dimensional hillslope. For demonstration purposes, we analyse the lumped Probability Distributed",
+    "pages": 25,
+    "size_mb": 0.77,
+    "year": "2023",
+    "category": "Streamflow, Runoff & Hydrological Forecasting"
+  },
+  {
+    "filename": "On_the_evaluation_of_grid_and_gridtogrid_rainfallrunoff.pdf",
+    "filepath": "papers\\On_the_evaluation_of_grid_and_gridtogrid_rainfallrunoff.pdf",
+    "title": "Draft: 5 December 2023",
+    "abstract": "1 On the evaluation of grid and grid-to-grid rainfall-runoff models and their differences with physical benchmarks Piotr Morawiecki\u2020 and Philippe Trinh\u2021 Department of Mathematical Sciences, University of Bath, Bath BA2 7AY, UK (Received xx; revised xx; accepted xx) In the first part of our study, we demonstrated how a simple physical benchmark model can be used to assess assumptions of the conceptual models, based on a lumped Probability Distributed Model (PDM) formulated by Lamb (1999). In this second part, we extend the scope of our study to distributed models, which aim to represent the spatial variability of model\u2019s elements (e.g. input precipitation, soil moisture levels, flow components etc.). For demonstration purposes, we assess the assumptions of the Grid and Grid-to-Grid models,",
+    "pages": 17,
+    "size_mb": 0.66,
+    "year": "2023",
+    "category": "Streamflow, Runoff & Hydrological Forecasting"
+  },
+  {
+    "filename": "Efficacy_of_Temporal_Fusion_Transformers_for_Runoff_Simulation.pdf",
+    "filepath": "papers\\Efficacy_of_Temporal_Fusion_Transformers_for_Runoff_Simulation.pdf",
+    "title": "EFFICACY OF TEMPORAL FUSION TRANSFORMERS FOR RUNOFF SIMULATION Sinan Rasiya Koya\u2217",
+    "abstract": "Combining attention with recurrence has shown to be valuable in sequence modeling, including hydrological predictions. Here, we explore the strength of Temporal Fusion Transformers (TFTs) over Long Short-Term Memory (LSTM) networks in rainfall-runoff modeling. We train ten randomly initialized models, TFT and LSTM, for 531 CAMELS catchments in the US. We repeat the experiment with five subsets of the Caravan dataset, each representing catchments in the US, Australia, Brazil, Great Britain, and Chile. Then, the performance of the models, their variability regarding the catchment attributes, and the difference according to the datasets are assessed. Our findings show that TFT slightly outperforms LSTM, especially in simulating the midsection and peak of hydrographs. Furthermore, we show the ability of TFT to handle longer sequences and why it can be a better candidate for higher or larger catchments. Being an explainable AI technique, TFT identifies the key dynamic and static variables, providing valuable scientific insights. However, both TFT and LSTM exhibit a considerable drop in performance with the Caravan dataset, indicating possible data quality issues. Overall, the study high",
+    "pages": 17,
+    "size_mb": 8.29,
+    "year": "2025",
+    "category": "Streamflow, Runoff & Hydrological Forecasting"
+  },
+  {
+    "filename": "Estimating_the_HslerReiss_variogram_matrix_by_clipped.pdf",
+    "filepath": "papers\\Estimating_the_HslerReiss_variogram_matrix_by_clipped.pdf",
+    "title": "Estimating the H\u00fcsler\u2013Reiss variogram matrix by clipped moments Shuang Hu\u22171 and Johan Segers\u20202,3",
+    "abstract": "In multivariate extreme value analysis, the tail dependence between some of the risk variables at hand may be weak, even when other variables do tend to become large simultaneously. Weak tail dependence may induce a substantial bias in estimation procedures based on the limiting multivariate (generalized) Pareto distribution of excesses over high thresholds. We consider a H\u00fcsler\u2013Reiss multivariate generalized Pareto model and, motivated by this issue, propose first- and second-order moment estimators of its variogram matrix constructed from a lower-tail-clipped version of the underlying random vector. The asymptotic normality of the proposed estimators is established. We demonstrate by simulation studies that they have lower bias than the empirical variogram estimator in certain cases, particularly when the dependence between components is weak. The estimators are applied to flood discharge data from the Danube river basin and the US flight delay data, showing that the tail dependence structure implied by the fitted model based on the first-order clipped moment estimator aligns more closely with the empirical tail dependence of the data than that based on the empirical variogram es",
+    "pages": 55,
+    "size_mb": 1.6,
+    "year": "2026",
+    "category": "Streamflow, Runoff & Hydrological Forecasting"
+  },
+  {
+    "filename": "Extreme_Adaptive_Transformer_for_Time_Series_Forecasting.pdf",
+    "filepath": "papers\\Extreme_Adaptive_Transformer_for_Time_Series_Forecasting.pdf",
+    "title": "Extreme Adaptive Transformer for Time Series Forecasting EXTREME ADAPTIVE TRANSFORMER FOR TIME SERIES FORECASTING",
+    "abstract": "Time series forecasting remains challenging when the underlying data contain rare but critical extreme events. This issue is particularly important in hydrologic forecasting, where streamflow distributions are often highly skewed and extreme peaks can have substantial impacts on flood monitoring, water resource manage- ment, and early warning systems. Although Transformer-based forecasting models have achieved strong performance by modeling long-range temporal dependencies, they typically treat all time points uniformly and may therefore underrepresent rare extreme patterns. In this paper, we propose the Extreme-Adaptive Trans- former (Exformer), a forecasting framework designed to explicitly model temporal dependencies involving both normal and extreme events. Exformer introduces an extreme-adaptive attention mechanism composed of three sparse components: Local, Stride, and Extreme. The Local and Stride components capture short-term and periodic temporal dependencies, respectively, while the Extreme component selectively models event-aware dependencies between normal and extreme stream- flow patterns. Experiments on four real-world hydrologic streamflow datasets show that Exformer",
+    "pages": 13,
+    "size_mb": 0.56,
+    "year": "2026",
+    "category": "Streamflow, Runoff & Hydrological Forecasting"
+  },
+  {
+    "filename": "HydroAgent_Closing_the_Gap_Between_Frontier_LLMs_and.pdf",
+    "filepath": "papers\\HydroAgent_Closing_the_Gap_Between_Frontier_LLMs_and.pdf",
+    "title": "HydroAgent Closing the Gap Between Frontier LLMs and",
+    "abstract": "Calibrating distributed hydrologic models is a critical bottleneck across operational water- resources management\u2014streamflow prediction, water-supply assessment, reservoir operation, drought monitoring, infrastructure design, and flood forecasting all depend on it: each basin demands a domain expert to translate hydro- graph signatures into adjustments of a high- dimensional parameter vector, and the resulting workflow does not transfer between watersheds. We ask a sharper version of a now-common question: can frontier large language model (LLM) agents replace the human hydrologic modeler, and if not, what would it take? We benchmark nine frontier LLM agents\u2014Claude Opus 4.6/4.7, Sonnet 4.6, GPT-5/5.4/5.4-pro, and Gemini 2.5-pro/3.1-pro/3-flash\u2014on the calibration of the operational CREST dis- tributed hydrologic model used by the U.S.",
+    "pages": 17,
+    "size_mb": 5.38,
+    "year": "2026",
+    "category": "Streamflow, Runoff & Hydrological Forecasting"
+  },
+  {
+    "filename": "M3R_Localized_Rainfall_Nowcasting_with_MeteorologyInformed_MultiModal_Attention.pdf",
+    "filepath": "papers\\M3R_Localized_Rainfall_Nowcasting_with_MeteorologyInformed_MultiModal_Attention.pdf",
+    "title": "M3R: Localized Rainfall Nowcasting with Meteorology-Informed MultiModal Attention Sanjeev Panta\u22c6, Rhett M Morvant\u22c6, Xu Yuan\u2020, Li Chen\u22c6, Nian-Feng Tzeng\u22c6",
+    "abstract": "for disaster mitigation and water resource management. De- spite recent advances in deep learning, precipitation prediction remains challenging due to limitations in effectively leverag- ing diverse multimedia data sources. We introduce M3R, a Meteorology-informed MultiModal attention-based architecture for direct Rainfall prediction that synergistically combines visual NEXRAD radar imagery with numerical Personal Weather Station (PWS) measurements, using a comprehensive pipeline for temporal alignment of heterogeneous meteorological data. With specialized multimodal attention mechanisms, M3R novelly lever- ages weather station time series as queries to selectively attend to spatial radar features, enabling focused extraction of precipita- tion signatures. Experimental results for three spatial areas of 100 km \u00d7 100 km centered at NEXRAD radar stations demonstrate that M3R outperforms existing approaches, achieving substantial improvements in accuracy, efficiency, and precipitation detec- tion capabilities. Our work establishes new benchmarks for multimedia-based precipitation nowcasting and provides practi- cal tools for operational weather prediction systems. The source",
+    "pages": 14,
+    "size_mb": 2.03,
+    "year": "2026",
+    "category": "Streamflow, Runoff & Hydrological Forecasting"
+  },
+  {
+    "filename": "MultiSource_Dynamic_Graph_Learning_for_CompoundFlood_Forecasting.pdf",
+    "filepath": "papers\\MultiSource_Dynamic_Graph_Learning_for_CompoundFlood_Forecasting.pdf",
+    "title": "Multi-Source Dynamic Graph Learning for Compound-Flood Forecasting in Managed Coastal Systems Liangjun You",
+    "abstract": "Compound flooding in managed coastal systems is influenced by hydrological conditions and water-management activity observed across multiple monitoring stations. Current forecasting models can capture temporal dependencies with low average errors, but global error metrics may conceal poor reproduction of prolonged high- water plateaus that are relevant to flood early warning. Because hydrometeorological and operational signals are distributed across heterogeneous gages, single-site records do not fully represent high-water dynamics. Nevertheless, unconstrained fusion of cross- site signals can degrade the stability of local temporal forecasts. This work proposes an anchored forecasting framework that incor- porates cross-site information through state- and lead-dependent bounded residual corrections. A multi-source regime representation constructed from hydrometeorological and operational observa- tions adaptively calibrates inter-site relationships and correction scales, enabling targeted cross-site adjustment while preserving the local temporal forecast as a stable anchor. Beyond conventional global error statistics, we evaluate event-scale high-water character- istics through th",
+    "pages": 17,
+    "size_mb": 4.46,
+    "year": "2026",
+    "category": "Streamflow, Runoff & Hydrological Forecasting"
+  },
+  {
+    "filename": "NetworkBased_SubbasinScale_Mapping_of_Streamflow_Alteration_in.pdf",
+    "filepath": "papers\\NetworkBased_SubbasinScale_Mapping_of_Streamflow_Alteration_in.pdf",
+    "title": "Network-Based Subbasin-Scale Mapping of Streamflow Alteration in Ontario, Canada Hongren Shen1, *, Bryan A. Tolson1, James R. Craig1, Robert A. Metcalfe2, 3, Jonathan Romero-Cuellar1,",
+    "abstract": "streamflow alterations that propagate downstream through connected river networks and complicate hydrologic modeling and aquatic ecosystem assessment. Existing streamflow indicators often quantify alteration only at discrete locations (e.g., hydrometric gauges), thus limiting spatially continuous, subbasin-scale mapping of where upstream infrastructure may influence downstream flows. We propose the Streamflow Alteration Index (SAI), a network-based screening metric that propagates point-based alteration signal sources downstream through a routing network to map potential alteration influence. The framework includes paired indices: SAI_I (0\u2013100%) and SAI_II (0\u2013100%), representing two levels of influence derived from confirmed (Level I) and potential (Level II) alteration signal sources. We implemented SAI to develop the SAI v1.0 database for Ontario, Canada, using the Ontario Lake and River Routing Product Version 2 (OLRRP v2) network and an inventory of 643 alteration signal sources compiled from provincial datasets. The resulting product provides seamless, high- resolution, network-based, subbasin-scale mapping of streamflow alteration across Ontario and enables SAI estimates at b",
+    "pages": 24,
+    "size_mb": 1.11,
+    "year": "2026",
+    "category": "Streamflow, Runoff & Hydrological Forecasting"
+  },
+  {
+    "filename": "Neural_Stochastic_Processes_for_Satellite_Precipitation_Refinement.pdf",
+    "filepath": "papers\\Neural_Stochastic_Processes_for_Satellite_Precipitation_Refinement.pdf",
+    "title": "Neural Stochastic Processes for Satellite Precipitation Refinement Shunya Nagashima1, Takumi Bannai2,3, Shuitsu Koyama1, Tomoya Mitsui1, Shuntaro Suzuki1",
+    "abstract": "Accurate precipitation estimation is critical for flood forecasting, water resource management, and disaster preparedness. Satellite products provide global hourly coverage but contain systematic biases; ground-based gauges are accurate at point locations but too sparse for direct gridded correction. Existing methods fuse these sources by interpolating gauge observations onto the satellite grid, but treat each time step independently and therefore discard temporal structure in precipitation fields. We propose Neural Stochastic Process (NSP), a model that pairs a Neural Process encoder conditioning on arbitrary sets of gauge observations with a latent Neural SDE on a 2D spatial representation. NSP is trained under a single variational objective with simulation-free cost. We also introduce QPEBench, a benchmark of 43,756 hourly samples over the Contiguous United States (2021\u20132025) with four aligned data sources and six evaluation metrics. On QPEBench, NSP outperforms 13 baselines across all six metrics and surpasses JAXA\u2019s operational gauge-calibrated product. An additional experiment on Kyushu, Japan confirms generalization to a different region with independent data sources. 1",
+    "pages": 29,
+    "size_mb": 4.9,
+    "year": "2026",
+    "category": "Streamflow, Runoff & Hydrological Forecasting"
+  },
+  {
+    "filename": "Physicsguided_Emulators_Reveal_Resilience_and_Fragility_under_Operational.pdf",
+    "filepath": "papers\\Physicsguided_Emulators_Reveal_Resilience_and_Fragility_under_Operational.pdf",
+    "title": "Physics-guided Emulators Reveal Resilience and Fragility under Operational Latencies and Outages Sarth Dubey1, Subimal Ghosh2,3, Udit Bhatia1,4,5*",
+    "abstract": "Reliable hydrologic and flood forecasting requires models that remain stable when input data are delayed, missing, or inconsistent. However, most advances in rainfall\u2013runoff prediction have been evaluated under ideal data conditions, emphasizing accuracy rather than operational resilience. Here, we develop an operationally ready emulator of the Global Flood Awareness System (GloFAS) that couples long- and short-term memory networks with a relaxed water-balance constraint to preserve physical coherence. Five architectures span a continuum of information availability: from complete historical and forecast forcings to scenar- ios with data latency and outages, allowing systematic evaluation of robustness. Trained in minimally managed catchments across the United States and tested in more than 5,000 basins, including heavily regulated rivers in India, the emulator reproduces the hydrological core of GloFAS and degrades smoothly as informa- tion quality declines. Transfer across contrasting hydroclimatic and management regimes yields reduced yet physically consistent performance, defining the limits 1 arXiv:2510.18535v1 [cs.AI] 21 Oct 2025 of generalization under data scarcity and human",
+    "pages": 45,
+    "size_mb": 15.14,
+    "year": "2026",
+    "category": "Streamflow, Runoff & Hydrological Forecasting"
+  },
+  {
+    "filename": "ProcessAware_AI_for_RainfallRunoff_Modeling_A_MassConserving_Neural.pdf",
+    "filepath": "papers\\ProcessAware_AI_for_RainfallRunoff_Modeling_A_MassConserving_Neural.pdf",
+    "title": "ProcessAware AI for RainfallRunoff Modeling A MassConserving Neural",
+    "abstract": "Machine learning models can achieve high predictive accuracy in hydrological applications but often lack physical interpretability. The Mass-Conserving Perceptron (MCP) provides a physics-aware artificial intelligence (AI) framework that enforces conservation principles while allowing hydrological process relationships to be learned from data. In this study, we investigate how progressively embedding physically meaningful representations of hydrological processes within a single MCP storage unit improves predictive skill and interpretability in rainfall\u2013runoff modeling. Starting from a minimal MCP formulation, we sequentially introduce bounded soil storage, state-dependent conductivity, variable porosity, infiltration capacity, surface ponding, vertical drainage, and nonlinear water-table dynamics. The resulting hierarchy of process-aware MCP models is evaluated across 15 catchments spanning five hydroclimatic regions of the continental United States using daily streamflow prediction as the target. Results show that progressively augmenting the internal physical structure of the MCP unit generally improves predictive performance. The influence of boundary conditions is strongly hyd",
+    "pages": 44,
+    "size_mb": 2.57,
+    "year": "2026",
+    "category": "Streamflow, Runoff & Hydrological Forecasting"
+  },
+  {
+    "filename": "QDeepGR4J_Quantilebased_ensemble_of_deep_learning_and_GR4J.pdf",
+    "filepath": "papers\\QDeepGR4J_Quantilebased_ensemble_of_deep_learning_and_GR4J.pdf",
+    "title": "QDeepGR4J: Quantile-based ensemble of deep learning and GR4J hybrid rainfall-runoff models for extreme flow prediction with uncertainty quantification",
+    "abstract": "Conceptual rainfall-runoff models aid hydrologists and climate scientists in 1 modelling streamflow to inform water management practices. Recent ad- 2 vances in deep learning have unravelled the potential for combining hydro- 3 logical models with deep learning models for better interpretability and 4 improved predictive performance. In our previous work, we introduced 5 DeepGR4J, which enhanced the GR4J conceptual rainfall-runoff model us- 6 ing a deep learning model to serve as a surrogate for the routing compo- 7 nent. DeepGR4J had an improved rainfall-runoff prediction accuracy, partic- 8 ularly in arid catchments. Quantile regression models have been extensively 9",
+    "pages": 37,
+    "size_mb": 2.52,
+    "year": "2026",
+    "category": "Streamflow, Runoff & Hydrological Forecasting"
+  },
+  {
+    "filename": "QWRF_Net_A_Quantum_Wavelet_Framework_with_Rectified_Flow_for.pdf",
+    "filepath": "papers\\QWRF_Net_A_Quantum_Wavelet_Framework_with_Rectified_Flow_for.pdf",
+    "title": "QWRF-Net: A Quantum\u2013Wavelet Framework with Rectified Flow for Short-Term Precipitation Nowcasting",
+    "abstract": "Zhuo Wanga,b, Chaorong Lia,\u2217, Wenjie Luob and Chuanhu Dengb aSchool of Computer Science and Technology (School of Artificial Intelligence), Yibin University, , Yibin, 644000, Sichuan, China bCollege of Computer Science and Engineering, Chongqing University of Technology, , Chongqing, 400054, China A R T I C L E I N F O Keywords: Short-term precipitation nowcasting Hydrometeorological early warning Hydrometeorological forecasting Wavelet decomposition Quantum-inspired modulation Rectified flow A B S T R A C T Short-term precipitation nowcasting is important for hydrometeorological early warning, especially",
+    "pages": 16,
+    "size_mb": 3.25,
+    "year": "2026",
+    "category": "Streamflow, Runoff & Hydrological Forecasting"
+  },
+  {
+    "filename": "StreamFlow_Dynamic_Memory_Flows_for_Streaming_Video.pdf",
+    "filepath": "papers\\StreamFlow_Dynamic_Memory_Flows_for_Streaming_Video.pdf",
+    "title": "StreamFlow: Dynamic Memory Flows for Streaming Video Understanding Muxin Fu1,2,*, Yifan Zhang3,*, Wentao Zhang2,*, Fangming Guo1, Qian Chen1,4",
+    "abstract": "preserve relevant evidence from continuously evolving streams under strict causality and bounded memory. Yet existing paradigms remain limited: model-based methods require intrusive backbone updates, while memory-based methods expend substantial visual-encoding computation on temporally redundant content and rely on rigid access to visual history. To address these limitations, we introduce StreamFlow, an efficient visual memory framework that enables dynamic, on-demand access to historical visual information. StreamFlow combines a lightweight, dynamics-aware mid-term memory that filters temporal redundancy before visual encoding with a latent long-term memory that consolidates historical video content into visual latents accessible to subsequent reasoning. During generation, an attention- guided retrieval mechanism injects relevant visual latents when the model\u2019s reliance on visual evidence weakens. StreamFlow achieves state-of-the-art streaming video understanding performance, reaching 67.73% overall accuracy on StreamingBench, while also delivering strong performance on offline long- video benchmarks. Relative to the vanilla setting, it improves the visual attention score (VAS) b",
+    "pages": 26,
+    "size_mb": 11.41,
+    "year": "2026",
+    "category": "Streamflow, Runoff & Hydrological Forecasting"
+  },
+  {
+    "filename": "Towards_Operational_Streamflow_Forecasting_in_the_Limpopo_River.pdf",
+    "filepath": "papers\\Towards_Operational_Streamflow_Forecasting_in_the_Limpopo_River.pdf",
+    "title": "Towards Operational Streamflow Forecasting in the Limpopo River Basin using Long Short-Term Memory Networks James Tlhomole1,2, Edoardo Borgomeo1, Karthikeyan Matheswaran2,",
+    "abstract": "Robust hydrological simulation is key for sustainable development, water management strategies, and climate change adaptation. In recent years, deep learning methods have been demonstrated to outperform mechanistic models at the task of hydrological discharge simulation. Adoption of these methods has been catalysed by the proliferation of large sample hydrology datasets, consisting of the observed discharge and meteorological drivers, along with geological and topographical catchment descriptors. Deep learning methods infer rainfall- runoff characteristics that have been shown to generalise across catchments, benefitting from the data diversity in large datasets. Despite this, application to catchments in Africa has been limited. The lack of adoption of deep learning methodologies is primarily due to sparsity or lack of the spatiotemporal observational data required to enable downstream model training. We therefore investigate the application of deep learning models, including LSTMs, for hydrological discharge simulation in the transboundary Limpopo River basin, emphasising application to data scarce regions. We conduct a number of computational experiments primarily focused on ass",
+    "pages": 14,
+    "size_mb": 0.84,
+    "year": "2026",
+    "category": "Streamflow, Runoff & Hydrological Forecasting"
+  },
+  {
+    "filename": "Using_Machine_Learning_to_Discover_Parsimonious_and_PhysicallyInterpretable.pdf",
+    "filepath": "papers\\Using_Machine_Learning_to_Discover_Parsimonious_and_PhysicallyInterpretable.pdf",
+    "title": "Using Machine Learning to Discover Parsimonious and Physically- Interpretable Representations of Catchment-Scale Rainfall-Runoff Dynamics Yuan-Heng Wang1,2 and Hoshin V. Gupta1",
+    "abstract": "Due largely to challenges associated with physical interpretability of machine learning (ML) methods, and because model interpretability is key to credibility in management applications, many scientists and practitioners are hesitant to discard traditional physical-conceptual (PC) modeling approaches despite their poorer predictive performance. Here, we examine how to develop parsimonious minimally-optimal representations that can facilitate better insight regarding system functioning. The term \"minimally-optimal\" indicates that the desired outcome can be achieved with the smallest possible effort and resources, while \u201cparsimony\u201d is widely held to support understanding. Accordingly, we suggest that ML-based modeling should use computational units that are inherently physically- interpretable, and explore how generic network architectures comprised of Mass-Conserving- Perceptron can be used to model dynamical systems in a physically-interpretable manner. In the context of spatially-lumped catchment-scale modeling, we find that both physical interpretability and good predictive performance can be achieved using a \"distributed-state\u201d network with context-dependent gating and \"informat",
+    "pages": 122,
+    "size_mb": 16.24,
+    "year": "2026",
+    "category": "Streamflow, Runoff & Hydrological Forecasting"
+  },
+  {
+    "filename": "HydroAgent_Formalizing_Forecaster_Expertise_into_SkillOrchestrated_Flood.pdf",
+    "filepath": "papers\\HydroAgent_Formalizing_Forecaster_Expertise_into_SkillOrchestrated_Flood.pdf",
+    "title": "manuscript submitted to AGU Advances HydroAgent: Formalizing Forecaster Expertise into Skill-Orchestrated Flood Forecasting Workflows",
+    "abstract": "Operational flood forecasting depends on tacit forecaster expertise that is difficult to for- malize, audit, and transfer. Although artificial intelligence methods have advanced flood prediction and model-error correction, most existing studies have not explicitly repre- sented the tacit expert rules, review checkpoints, and workflow constraints that connect model outputs to operational warning decisions. To address this issue, we propose Hy- droAgent, a skill-orchestrated agent framework that embeds Large Language Models (LLMs) into a model-driven flood forecasting workflow, where each skill encodes explicit rules to bound LLM reasoning. We validated its effectiveness using five state-of-the-art LLMs in the South Yamhill River basin. Our results demonstrate that prior judgment captures observed peak flow and flood volume within 5% tolerance in 10 and 11 out of 14 events, with 5-fold cross-validation over 129 events yielding Pearson correlations of 0.62 and 0.84. Building on a high-baseline scheme library (average KGE 0.890), the guided scheme se- lection further improves KGE by 0.023\u20130.154, with simulated peak flow and flood vol- ume falling within the prior judgment ranges for 14",
+    "pages": 35,
+    "size_mb": 1.58,
+    "year": "2026",
+    "category": "Streamflow, Runoff & Hydrological Forecasting"
+  },
+  {
+    "filename": "The_next_generation_of_products_and_methodologies_to_establi.pdf",
+    "filepath": "papers\\The_next_generation_of_products_and_methodologies_to_establi.pdf",
+    "title": "The next generation of products and methodologies to establi",
+    "abstract": "Biological soil crusts (biocrusts)\u2014thin, coherent soil surface layers aggregated and inhabited by communities of tiny photoautotrophic and heterotrophic organisms\u2014support ecosystem functioning in drylands and influence the Earth system. Biocrust loss due to disturbance, global change, and land use leads to altered hydrological function, susceptibility to erosion, diminished biogeochemical cycling, with consequences extending to regional and global environmental quality and ecosystem service provisioning. To restore degraded drylands, specific techniques could inform how to: 1. produce biocrust biota ex-situ for use as an inoculum in degraded environments, then 2. encourage the establishment of the inoculum in high-stress environments. To re-establish lost biocrusts, a promising pathway could be the integration of adding biocrust biota (inoculation), ensuring that it stays where applied (retention), and softening environmental stresses and limitations (amelioration) at approximately the same time. Several techniques, most of them developed in only the past few years, demonstrate this integration: biocrust sods, cloths, pellets, capsules, and slurries. Biocrust sods are fabric-reinfo",
+    "pages": 66,
+    "size_mb": 2.61,
+    "year": "2026",
+    "category": "Watershed Management, Soil Erosion & Eco-Hydrology"
+  }
+]

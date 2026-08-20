@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+.tempmediaStorage/
+.system_generated/
+*.log
+.tectonic/
+.DS_Store

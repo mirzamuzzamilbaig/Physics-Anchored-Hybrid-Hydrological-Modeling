@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_7b43d73e0bfc43a7cdd8c0c99166ae04 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet-minimap/3.6.1/Control.MiniMap.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet-minimap/3.6.1/Control.MiniMap.css"/>
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_7b43d73e0bfc43a7cdd8c0c99166ae04" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_7b43d73e0bfc43a7cdd8c0c99166ae04 = L.map(
+                "map_7b43d73e0bfc43a7cdd8c0c99166ae04",
+                {
+                    center: [26.5, 68.5],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 7,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_054b3ca6fa03c70249e988bda11a6387 = L.tileLayer(
+                "https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 20,
+  "maxNativeZoom": 20,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"https://carto.com/attributions\"\u003eCARTO\u003c/a\u003e",
+  "subdomains": "abcd",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_054b3ca6fa03c70249e988bda11a6387.addTo(map_7b43d73e0bfc43a7cdd8c0c99166ae04);
+        
+    
+            var tile_layer_12423bc6175370a52b6fb74be688493c = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_12423bc6175370a52b6fb74be688493c.addTo(map_7b43d73e0bfc43a7cdd8c0c99166ae04);
+        
+    
+            var tile_layer_d48199da62636c0e34baa7869d81a1dc = L.tileLayer(
+                "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}",
+                {
+  "minZoom": 0,
+  "maxZoom": 18,
+  "maxNativeZoom": 18,
+  "noWrap": false,
+  "attribution": "Esri World Imagery",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_d48199da62636c0e34baa7869d81a1dc.addTo(map_7b43d73e0bfc43a7cdd8c0c99166ae04);
+        
+    
+            var poly_line_d523359f0b2ccbd19668b161915a255e = L.polyline(
+                [[28.422, 69.711], [27.705, 68.858], [26.85, 68.1], [26.435, 67.665], [25.433, 68.324], [24.747, 67.923], [24.15, 67.5]],
+                {"bubblingMouseEvents": true, "color": "#0066cc", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#0066cc", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 5}
+            ).addTo(map_7b43d73e0bfc43a7cdd8c0c99166ae04);
+        
+    
+            poly_line_d523359f0b2ccbd19668b161915a255e.bindTooltip(
+                `<div>
+                     Indus River Mainstem Corridor (Sindh)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_4c6b1e3fa7c65a48b13b125ef78e66da = L.marker(
+                [28.422, 69.711],
+                {
+}
+            ).addTo(map_7b43d73e0bfc43a7cdd8c0c99166ae04);
+        
+    
+            var icon_3c010b56158fc9364e6530a5c23dc629 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "water",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_80b76f6d20a44f23c8aafde0e0596fa1 = L.popup({
+  "maxWidth": 280,
+});
+
+        
+            
+                var html_cc326067a8aca91a1e22f5622273ce05 = $(`<div id="html_cc326067a8aca91a1e22f5622273ce05" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial, sans-serif; width: 230px; padding: 4px;">         <h4 style="color: #0d47a1; margin-bottom: 4px;">Guddu Barrage</h4>         <p style="margin: 2px 0; font-size: 12px;"><b>Role:</b> Upper Sindh Indus River Entry</p>         <p style="margin: 2px 0; font-size: 12px;"><b>Elevation:</b> 75.6 meters a.s.l.</p>         <p style="margin: 2px 0; font-size: 12px;"><b>Coordinates:</b> 28.422° N, 69.711° E</p>     </div>     </div>`)[0];
+                popup_80b76f6d20a44f23c8aafde0e0596fa1.setContent(html_cc326067a8aca91a1e22f5622273ce05);
+            
+        
+
+        marker_4c6b1e3fa7c65a48b13b125ef78e66da.bindPopup(popup_80b76f6d20a44f23c8aafde0e0596fa1)
+        ;
+
+        
+    
+    
+            marker_4c6b1e3fa7c65a48b13b125ef78e66da.bindTooltip(
+                `<div>
+                     Guddu Barrage (75.6 m)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_4c6b1e3fa7c65a48b13b125ef78e66da.setIcon(icon_3c010b56158fc9364e6530a5c23dc629);
+            
+    
+            var marker_e6a8359a72bac2e5a28827f05a38181c = L.marker(
+                [27.705, 68.858],
+                {
+}
+            ).addTo(map_7b43d73e0bfc43a7cdd8c0c99166ae04);
+        
+    
+            var icon_52b9a79be9adbe157cbdde31c25f535f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "water",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_f723544bba59c492f76fbe13f1d1b677 = L.popup({
+  "maxWidth": 280,
+});
+
+        
+            
+                var html_ab441f14563cd7c0f62ad3d5f37ca6b9 = $(`<div id="html_ab441f14563cd7c0f62ad3d5f37ca6b9" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial, sans-serif; width: 230px; padding: 4px;">         <h4 style="color: #0d47a1; margin-bottom: 4px;">Sukkur Barrage</h4>         <p style="margin: 2px 0; font-size: 12px;"><b>Role:</b> Central Indus Canal Command</p>         <p style="margin: 2px 0; font-size: 12px;"><b>Elevation:</b> 63.8 meters a.s.l.</p>         <p style="margin: 2px 0; font-size: 12px;"><b>Coordinates:</b> 27.705° N, 68.858° E</p>     </div>     </div>`)[0];
+                popup_f723544bba59c492f76fbe13f1d1b677.setContent(html_ab441f14563cd7c0f62ad3d5f37ca6b9);
+            
+        
+
+        marker_e6a8359a72bac2e5a28827f05a38181c.bindPopup(popup_f723544bba59c492f76fbe13f1d1b677)
+        ;
+
+        
+    
+    
+            marker_e6a8359a72bac2e5a28827f05a38181c.bindTooltip(
+                `<div>
+                     Sukkur Barrage (63.8 m)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_e6a8359a72bac2e5a28827f05a38181c.setIcon(icon_52b9a79be9adbe157cbdde31c25f535f);
+            
+    
+            var marker_8912505598f3a185803aadd1d4b50b9b = L.marker(
+                [25.433, 68.324],
+                {
+}
+            ).addTo(map_7b43d73e0bfc43a7cdd8c0c99166ae04);
+        
+    
+            var icon_a623cf8df75923170fb6beb780c2421e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "water",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_fd729745cb9f200c7a67ec82792608d6 = L.popup({
+  "maxWidth": 280,
+});
+
+        
+            
+                var html_3ef49450bad52edb43860d5fc381ebf4 = $(`<div id="html_3ef49450bad52edb43860d5fc381ebf4" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial, sans-serif; width: 230px; padding: 4px;">         <h4 style="color: #0d47a1; margin-bottom: 4px;">Kotri Barrage</h4>         <p style="margin: 2px 0; font-size: 12px;"><b>Role:</b> Lower Indus Barrage & Delta Outflow</p>         <p style="margin: 2px 0; font-size: 12px;"><b>Elevation:</b> 17.9 meters a.s.l.</p>         <p style="margin: 2px 0; font-size: 12px;"><b>Coordinates:</b> 25.433° N, 68.324° E</p>     </div>     </div>`)[0];
+                popup_fd729745cb9f200c7a67ec82792608d6.setContent(html_3ef49450bad52edb43860d5fc381ebf4);
+            
+        
+
+        marker_8912505598f3a185803aadd1d4b50b9b.bindPopup(popup_fd729745cb9f200c7a67ec82792608d6)
+        ;
+
+        
+    
+    
+            marker_8912505598f3a185803aadd1d4b50b9b.bindTooltip(
+                `<div>
+                     Kotri Barrage (17.9 m)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_8912505598f3a185803aadd1d4b50b9b.setIcon(icon_a623cf8df75923170fb6beb780c2421e);
+            
+    
+            var marker_343139d136ee27a3567c80b60c134795 = L.marker(
+                [26.435, 67.665],
+                {
+}
+            ).addTo(map_7b43d73e0bfc43a7cdd8c0c99166ae04);
+        
+    
+            var icon_4c259a40f72459bd11aec1e61e1ce8af = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_bd57dfe5bead7ff5dab3a879b208f1e5 = L.popup({
+  "maxWidth": 280,
+});
+
+        
+            
+                var html_78ca50b755bcbaba5c203759b67e26c5 = $(`<div id="html_78ca50b755bcbaba5c203759b67e26c5" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial, sans-serif; width: 230px; padding: 4px;">         <h4 style="color: #0d47a1; margin-bottom: 4px;">Manchar Lake</h4>         <p style="margin: 2px 0; font-size: 12px;"><b>Role:</b> Major Flood Basin & Lake System</p>         <p style="margin: 2px 0; font-size: 12px;"><b>Elevation:</b> 32.1 meters a.s.l.</p>         <p style="margin: 2px 0; font-size: 12px;"><b>Coordinates:</b> 26.435° N, 67.665° E</p>     </div>     </div>`)[0];
+                popup_bd57dfe5bead7ff5dab3a879b208f1e5.setContent(html_78ca50b755bcbaba5c203759b67e26c5);
+            
+        
+
+        marker_343139d136ee27a3567c80b60c134795.bindPopup(popup_bd57dfe5bead7ff5dab3a879b208f1e5)
+        ;
+
+        
+    
+    
+            marker_343139d136ee27a3567c80b60c134795.bindTooltip(
+                `<div>
+                     Manchar Lake (32.1 m)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_343139d136ee27a3567c80b60c134795.setIcon(icon_4c259a40f72459bd11aec1e61e1ce8af);
+            
+    
+            var marker_bef8123077ac31a0056cde2355d78378 = L.marker(
+                [24.747, 67.923],
+                {
+}
+            ).addTo(map_7b43d73e0bfc43a7cdd8c0c99166ae04);
+        
+    
+            var icon_ede151fe8ac8630579847773834774a7 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_53ed1c074c26840f99590278cc1f12fd = L.popup({
+  "maxWidth": 280,
+});
+
+        
+            
+                var html_7ea877cdff549d9984d97bd1df81e14c = $(`<div id="html_7ea877cdff549d9984d97bd1df81e14c" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial, sans-serif; width: 230px; padding: 4px;">         <h4 style="color: #0d47a1; margin-bottom: 4px;">Indus Delta Thatta</h4>         <p style="margin: 2px 0; font-size: 12px;"><b>Role:</b> Indus Estuary & Coastal Mangroves</p>         <p style="margin: 2px 0; font-size: 12px;"><b>Elevation:</b> 11.9 meters a.s.l.</p>         <p style="margin: 2px 0; font-size: 12px;"><b>Coordinates:</b> 24.747° N, 67.923° E</p>     </div>     </div>`)[0];
+                popup_53ed1c074c26840f99590278cc1f12fd.setContent(html_7ea877cdff549d9984d97bd1df81e14c);
+            
+        
+
+        marker_bef8123077ac31a0056cde2355d78378.bindPopup(popup_53ed1c074c26840f99590278cc1f12fd)
+        ;
+
+        
+    
+    
+            marker_bef8123077ac31a0056cde2355d78378.bindTooltip(
+                `<div>
+                     Indus Delta Thatta (11.9 m)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_bef8123077ac31a0056cde2355d78378.setIcon(icon_ede151fe8ac8630579847773834774a7);
+            
+    
+            var layer_control_5aa5b07e0e367ec51327a8ec334cc68c_layers = {
+                base_layers : {
+                    "cartodbpositron" : tile_layer_054b3ca6fa03c70249e988bda11a6387,
+                    "OpenStreetMap" : tile_layer_12423bc6175370a52b6fb74be688493c,
+                    "Satellite View" : tile_layer_d48199da62636c0e34baa7869d81a1dc,
+                },
+                overlays :  {
+                },
+            };
+            let layer_control_5aa5b07e0e367ec51327a8ec334cc68c = L.control.layers(
+                layer_control_5aa5b07e0e367ec51327a8ec334cc68c_layers.base_layers,
+                layer_control_5aa5b07e0e367ec51327a8ec334cc68c_layers.overlays,
+                {
+  "position": "topright",
+  "collapsed": true,
+  "autoZIndex": true,
+}
+            ).addTo(map_7b43d73e0bfc43a7cdd8c0c99166ae04);
+
+        
+    
+            var tile_layer_d307ab1a43bd4a2a3f3a7b1c35fe14de = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detect_retina": false, "max_native_zoom": 19, "max_zoom": 19, "min_zoom": 0, "no_wrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+            var mini_map_0864179949f0cecbb8f6b6062ca1fda6 = new L.Control.MiniMap(
+                tile_layer_d307ab1a43bd4a2a3f3a7b1c35fe14de,
+                {
+  "position": "bottomright",
+  "width": 150,
+  "height": 150,
+  "collapsedWidth": 25,
+  "collapsedHeight": 25,
+  "zoomLevelOffset": -5,
+  "centerFixed": false,
+  "zoomAnimation": false,
+  "toggleDisplay": true,
+  "autoToggleDisplay": false,
+  "minimized": false,
+}
+            );
+            map_7b43d73e0bfc43a7cdd8c0c99166ae04.addControl(mini_map_0864179949f0cecbb8f6b6062ca1fda6);
+        
+</script>
+</html>

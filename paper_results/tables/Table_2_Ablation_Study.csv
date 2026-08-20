@@ -1,0 +1,6 @@
+Ablation Configuration,KGE (2022 Flood),FHV (2022 Flood),KGE (2023-2024),FHV (2023-2024)
+Full PG-MCH (Proposed),0.879,-9.4%,0.938,-5.0%
+w/o Physical Backbone (Pure ML),0.532,-30.9%,0.832,-15.0%
+w/o Upstream Inflow (Q_inflow Telemetry),0.817,-14.1%,0.9,-7.7%
+w/o Antecedent Memory (No API),0.957,-3.6%,0.977,-1.7%
+w/o Thermal/Evaporative Forcing,0.879,-9.4%,0.939,-4.9%

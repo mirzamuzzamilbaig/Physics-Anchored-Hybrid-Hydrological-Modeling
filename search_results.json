@@ -1,0 +1,339 @@
+{
+  "arxiv": [
+    {
+      "source": "arXiv",
+      "title": "DefoEye: Python-Based Software for Facilitating Time-Series InSAR Analysis of Sentinel-1 Remote-Sensing Data",
+      "published": "2026-08-05T14:39:49Z",
+      "authors": [
+        "Alireza Taheri Dehkordi",
+        "Hossein Hashemi",
+        "Amir Naghibi"
+      ],
+      "id": "http://arxiv.org/abs/2608.04915v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.04915v1",
+      "summary": "Many existing time-series Interferometric Synthetic Aperture Radar (TS-InSAR) software tools have limitations, including restricted geographic applicability, commercial licensing, and incomplete end-to-end processing support. Although GMTSAR avoids some of these constraints, it still requires substantial manual intervention and C-shell commands, lacks a user-friendly graphical interface, and omits important steps such as interferogram network pruning and anchoring of unwrapped interferograms. This paper introduces DefoEye (v1), an open-source Python-based software package that wraps GMTSAR and provides a unified, user-friendly TS-InSAR workflow for Sentinel-1 data. DefoEye supports parallel job execution, interferogram network pruning, and multiple anchoring options. Its performance was evaluated from 2020 to 2024 in four regions with different geological settings, deformation mechanisms, and atmospheric and climatic conditions. In Bologna, Italy; Gotland, Sweden; and Houston, USA, DefoEye results were compared with observations from 10 GNSS stations and showed strong agreement, with RMSE values of 4.3-11.9 mm and Pearson correlation coefficients of 0.63-0.95. In Karaj, Iran, where GNSS observations were unavailable, DefoEye was compared with other widely used processing tools and achieved similarly close agreement, with an RMSE of 4.8 mm/yr and a Pearson correlation coefficient of 0.98. These results demonstrate that DefoEye provides reliable TS-InSAR products for geological, hydrological, and environmental applications."
+    },
+    {
+      "source": "arXiv",
+      "title": "Recent Sharp Rise in Inhomogeneous Hydrological Extremes Stress Vegetation Growth in China",
+      "published": "2026-08-04T02:38:45Z",
+      "authors": [
+        "Shengyuan Liu",
+        "Jeremy Cheuk-Hin Leung",
+        "Jianjun Xu",
+        "Kunlun Xiang",
+        "Shifei Tu",
+        "Meiying Zheng",
+        "Daosheng Xu",
+        "Yi Li",
+        "Banglin Zhang"
+      ],
+      "id": "http://arxiv.org/abs/2608.03037v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.03037v1",
+      "summary": "The intensifying spatial inhomogeneity of rainfall under greenhouse warming implies that more inhomogeneous hydrological extremes (IHEs), i.e., coexistence of extreme rainfall or drought, may be triggered. While vegetation growth in China is sensitive to hydrological hazards, the variability of IHEs and their ecological impacts remain underexplored. Here, we find a significant increase in IHEs during China's growing season since 2000 (+2.1 events or +14.52 days per decade), with a rapid sharp rise to an annual average of 6.4 events or 42.0 days in the past five years. The primary driver is the enhanced inhomogeneity of moisture-dynamic coupled weather conditions, overlapping with a northward shift of climatological precipitation distribution. This results in a \"Wet-North and Dry-South\" pattern of IHE impacts, which poses severe and asymmetric threats to vegetation growth in China, with the expansion of drought areas exerts stronger stress on vegetation than the compensatory effects of rainfall. Our findings suggest that the sharp rises of IHEs tend to yield net negative impacts on vegetation growth, highlighting the need for stronger hydrological management to reduce future risks."
+    },
+    {
+      "source": "arXiv",
+      "title": "Network-Based Subbasin-Scale Mapping of Streamflow Alteration in Ontario, Canada",
+      "published": "2026-08-03T15:11:02Z",
+      "authors": [
+        "Hongren Shen",
+        "Bryan A. Tolson",
+        "James R. Craig",
+        "Robert A. Metcalfe",
+        "Jonathan Romero-Cuellar",
+        "James J. Luce"
+      ],
+      "id": "http://arxiv.org/abs/2608.02363v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.02363v1",
+      "summary": "Dams, reservoirs, and waterpower facilities support regional water management but can alter streamflow far downstream through connected river networks, complicating hydrologic modeling and aquatic ecosystem assessment. Existing indicators typically quantify alteration only at discrete locations, limiting spatially continuous mapping of potential infrastructure influence. We propose the Streamflow Alteration Index (SAI), a network-based screening metric that propagates point-based alteration signals downstream through a routing network. The framework includes paired indices, SAI_I and SAI_II (0-100%), representing influence from confirmed (Level I) and potential (Level II) alteration sources. We implemented SAI for Ontario, Canada, using the Ontario Lake and River Routing Product Version 2 (OLRRP v2) and an inventory of 643 alteration signal sources compiled from provincial datasets. The resulting SAI v1.0 database provides seamless, high-resolution, subbasin-scale mapping and estimates at gauged and ungauged network nodes. We validated SAI by classifying gauged subbasins as natural, conditional, or altered and comparing these classes with two independent references: Reference Hydrometric Basin Network gauges and Water Survey of Canada (WSC) Natural and Regulated labels. SAI classified 86% of RHBN natural gauges and 86% of WSC-natural gauges as natural. Among WSC-regulated gauges, 74% were classified as conditional or natural. SAI v1.0 therefore provides an objective screening product for large-domain hydrologic and aquatic applications without requiring detailed dam operating information and offers a scalable basis for national- to global-scale mapping of potential streamflow alteration."
+    },
+    {
+      "source": "arXiv",
+      "title": "Multi-Source Dynamic Graph Learning for Compound-Flood Forecasting in Managed Coastal Systems",
+      "published": "2026-08-03T06:48:32Z",
+      "authors": [
+        "Liangjun You",
+        "Min Wu",
+        "Orlando Woods",
+        "Dongsheng Luo"
+      ],
+      "id": "http://arxiv.org/abs/2608.01775v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.01775v1",
+      "summary": "Compound flooding in managed coastal systems is influenced by hydrological conditions and water-management activity observed across multiple monitoring stations. Current forecasting models can capture temporal dependencies with low average errors, but global error metrics may conceal poor reproduction of prolonged high-water plateaus that are relevant to flood early warning. Because hydrometeorological and operational signals are distributed across heterogeneous gages, single-site records do not fully represent high-water dynamics. Nevertheless, unconstrained fusion of cross-site signals can degrade the stability of local temporal forecasts. This work proposes an anchored forecasting framework that incorporates cross-site information through state- and lead-dependent bounded residual corrections. A multi-source regime representation constructed from hydrometeorological and operational observations adaptively calibrates inter-site relationships and correction scales, enabling targeted cross-site adjustment while preserving the local temporal forecast as a stable anchor. Beyond conventional global error statistics, we evaluate event-scale high-water characteristics through the temporal alignment of forecasted and observed high-water processes. Experiments demonstrate that selectively integrating multi-station dynamic conditions improves the prediction reliability of sustained high-water plateaus while maintaining high accuracy during routine hydrological conditions, supporting flood early warning and water-management decision support."
+    },
+    {
+      "source": "arXiv",
+      "title": "QWRF-Net: A Quantum-Wavelet Framework with Rectified Flow for Short-Term Precipitation Nowcasting",
+      "published": "2026-08-03T02:58:49Z",
+      "authors": [
+        "Zhuo Wang",
+        "Chaorong Li",
+        "Wenjie Luo",
+        "Chuanhu Deng"
+      ],
+      "id": "http://arxiv.org/abs/2608.01626v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.01626v1",
+      "summary": "Short-term precipitation nowcasting is important for hydrometeorological early warning, especially when intense convective rainfall may trigger urban flooding, flash floods, and other high-impact hazards. A key challenge in warning-oriented nowcasting is that radar precipitation fields contain strongly coupled multi-scale structures, while forecast quality often degrades at later lead times, making it difficult to preserve intense precipitation cores and their spatial organization over the full warning-relevant horizon. To address this problem, we propose QWRF-Net, a quantum-wavelet framework with rectified flow for short-term precipitation nowcasting. The core idea is to improve the conditional representation of precipitation by explicitly decomposing latent features into wavelet sub-bands and then performing differentiated quantum-inspired modulation in the decomposed latent space, before generating future sequences through a rectified-flow-based non-autoregressive decoder. Experiments on the KNMI radar and SEVIR benchmarks under a unified evaluation protocol show that QWRF-Net achieves favorable overall performance, with relatively consistent gains at medium-to-high precipitation thresholds, on an extreme-event subset, and in preserving intense precipitation cores and fine-scale structures. Ablation results further indicate that wavelet-based scale disentanglement, differentiated sub-band modulation, and flow-based generation provide complementary benefits within the proposed framework. Overall, these results suggest that jointly enhancing multi-scale precipitation representation and stable multi-step generation is a promising direction for warning-oriented short-term precipitation nowcasting. The observed improvements may also provide a more useful precipitation basis for downstream hydrological and warning-related applications."
+    },
+    {
+      "source": "arXiv",
+      "title": "Forecasting Land Art Under Climate Scenarios",
+      "published": "2026-07-30T16:39:51Z",
+      "authors": [
+        "Alev Cinbarci",
+        "Sean Kalaycioglu"
+      ],
+      "id": "http://arxiv.org/abs/2607.28489v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.28489v1",
+      "summary": "Robert Smithson's 1970 land artwork Spiral Jetty, located in the north arm of Utah's Great Salt Lake, provides a fixed remote-sensing target whose visual complexity reflects hydroclimatic conditions. A companion study analyzed 1,744 co-registered Landsat 4-9 and Sentinel-2 image chips spanning every year and month from 1984 to 2025. It found robust relationships between coarse-scale permutation entropy, mean intensity, and the third principal component of ResNet50 avg-pool embeddings, and lake elevation, regional temperature, and cumulative CO2. It also showed that image complexity leads lake stage by about three years and that the long-term trend is non-monotonic, with decline after 2015. Building on those findings, this paper develops a two-stage forecasting pipeline. Stage 1 applies IPCC AR6 SSP1-2.6, SSP2-4.5, and SSP5-8.5 temperature changes to forecast regional temperature, north- and south-arm lake elevation, salinity, and cumulative CO2 for 2030 and 2050. Stage 2a projects 14 image-complexity features using linear and Random Forest regressions trained on the 42-year record. All six scenario-year combinations move the inputs outside the 1984-2025 training distribution. The Random Forest model therefore saturates near the post-2015 dry-playa regime, while a threshold-based hydrological interpretation classifies Spiral Jetty as fully exposed in every scenario. Stage 2b specifies a climate-conditioned latent-diffusion framework using Stable Diffusion XL fine-tuned with LoRA on the 1,744 chips, ControlNet conditioning on the climate vector, and a hydrological physics mask for ensemble image synthesis. Code is provided, and validation results will be released after diffusion training. We conclude by discussing ethical implications of generative speculation on cultural heritage and outlining a roadmap for forecasting at Sun Tunnels, Double Negative, Lightning Field, and Roden Crater."
+    },
+    {
+      "source": "arXiv",
+      "title": "Improving Discrepancy Measures for Global Sensitivity Analysis",
+      "published": "2026-07-30T14:13:41Z",
+      "authors": [
+        "Samuele Lo Piano",
+        "Alessio Lachi",
+        "Razi Sheikholeslami",
+        "Arnald Puy",
+        "Pamphile Tupui Roy",
+        "Andrea Saltelli"
+      ],
+      "id": "http://arxiv.org/abs/2607.28252v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.28252v1",
+      "summary": "Sensitivity analysis methods based on Sobol' total-order indices ($T_i$) are well-founded but computationally demanding. A recently proposed ersatz discrepancy measure offers a cheaper alternative by quantifying deviations from uniformity in input--output scatterplots, yet lacks theoretical grounding and has not been benchmarked against other data-given estimators. We introduce an adjusted ersatz discrepancy that rank-transforms the output before gridding and imputes isolated empty cells via a Moore-neighbourhood rule, substantially improving agreement with $T_i$. We prove, via a copula-theoretic argument, that the adjustment is a consistent screening statistic with a zero condition, an explicit full-support ceiling bounding its use as a magnitude estimator, and a documented failure mode for purely interaction-mediated dependencies. We benchmark the adjusted ersatz against three zero-extra-cost comparators -- polynomial chaos expansion (PCE), PCE-derived Shapley effects, and a PAWN-type maximum Kolmogorov--Smirnov index -- across seven benchmark functions and a real-world hydrological model. The adjusted ersatz is the only estimator achieving perfect rank agreement on a non-smooth hydrological output where PCE is misspecified. A joint sensitivity analysis of five algorithmic parameters shows grid resolution, not the imputation threshold or sampling method, drives performance variability."
+    },
+    {
+      "source": "arXiv",
+      "title": "From Conceptual Hydrologic Models to Conceptually Interpretable Neural Networks: A Snow-Water Mass-Conserving-Perceptron Framework for Discovering Catchment-Scale Precipitation-Storage-Runoff Representations",
+      "published": "2026-07-29T05:38:43Z",
+      "authors": [
+        "Yuan-Heng Wang",
+        "Hoshin V. Gupta"
+      ],
+      "id": "http://arxiv.org/abs/2607.26492v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.26492v1",
+      "summary": "The Mass-Conserving Perceptron (MCP) establishes a modeling paradigm in which conceptual hydrologic models can be reformulated as physically constrained, conceptually interpretable neural networks. Here, we develop a snow-water MCP network framework and evaluate it across 513 CAMELS-US basins. We first recast a coupled two-state SOIL-MCP and SNOWMCP conceptual model as a mass-conserving neural network and show that the hydrologic-model and neural-network formulations achieve comparable predictive performance. We then examine cross-node state-information sharing within two-state HYDROMCP architectures and evaluate broader single-layer networks constructed from three types of interpretable MCP units with one to five states. Across CONUS, the median KGEss increases from 0.82 for one-state networks to 0.89 for two-state networks and 0.90 for five-state networks, suggesting diminishing aggregate gains beyond two states. Basin-specific MCP and LSTM selection yields the same median KGEss of 0.90, while the selected MCP networks use fewer parameters on average. Complementary AIC- and KGE-based selection identifies compact, basin-specific directed-graph representations that balance predictive accuracy and model complexity. These analyses provide an empirical basis for identifying the numbers, types, and interactions of states needed for hydrologic representation. Future studies should test joint training against multiple hydrologic responses, such as streamflow, snow water equivalent, and groundwater storage."
+    },
+    {
+      "source": "arXiv",
+      "title": "Poroelastic aquifer response drives seasonal vertical land motion in southern Louisiana",
+      "published": "2026-07-28T08:24:57Z",
+      "authors": [
+        "Pritom Sarma",
+        "Eduardo Arzabala",
+        "Carolina Hurtado-Pulido",
+        "Einat Aharonov",
+        "Renaud Toussaint",
+        "Stanislav Parez",
+        "Cynthia Ebinger"
+      ],
+      "id": "http://arxiv.org/abs/2607.25429v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.25429v1",
+      "summary": "Coastal Louisiana is sinking, amplifying flooding and land loss, yet the seasonal component of this motion remains difficult to attribute. Satellite geodetic records from Baton Rouge spanning 2004-2024 reveal long-term subsidence of -2.69 +/- 0.69 mm/yr, with a superimposed annual oscillation of 10-15 mm that is in phase with river stage and confined-aquifer hydraulic head. This positive correlation is diagnostic of poroelastic deformation rather than surface loading. A poroelastic model of a semi-confined aquifer driven by hydraulic-head variations reproduces both the long-term and seasonal signals. The seasonal amplitude decreases logarithmically with distance from the intersection of the Baton Rouge Fault and the Mississippi River, as expected for radial pressure diffusion from a flux source. Fault-river intersections therefore act as seasonal conduits into deep aquifers, representing an underappreciated control on coastal land motion that is likely to strengthen as hydrological extremes intensify."
+    },
+    {
+      "source": "arXiv",
+      "title": "Context-Aware Concept Distillation for Trustworthy Flood Prediction",
+      "published": "2026-07-25T14:45:26Z",
+      "authors": [
+        "Eli Levinkopf",
+        "Efrat Morin",
+        "Claudia V. Goldman"
+      ],
+      "id": "http://arxiv.org/abs/2607.23237v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.23237v1",
+      "summary": "Effective flood risk management relies on accurate forecasting, yet the \"black box\" nature of stateof-the-art Deep Learning models creates a barrier to trust and accountability in high-stakes public safety decisions. While existing Explainable AI (XAI) methods offer local attributions, they fail to provide the verifiable, operationally meaningful causal narratives required by disaster response authorities. To address this societal challenge, we propose Context-Aware Concept Distillation (CACD), a framework developed in collaboration with domain experts to distill opaque LSTMs into interpretable, hydrology-aware surrogate models. We introduce an unsupervised pipeline to discover a \"Hydrological Language\" and a Residual Hypernetwork that dynamically modulates these concepts based on static basin characteristics. Evaluated on 5,203 basins globally, our model achieves high fidelity (Median NSE 0.70), significantly outperforming black-box baselines (e.g., Multi Layer Perceptrons) on unseen future data. By demonstrating that human-interpretable concepts are sufficient to reconstruct flood dynamics, this work balances AI accuracy with the transparency required for responsible environmental decision-making."
+    }
+  ],
+  "europe_pmc": [],
+  "openalex": [
+    {
+      "source": "OpenAlex",
+      "title": "Predictability of large-scale extreme droughts from global bias-corrected seasonal forecasts",
+      "published": "2026-08-10",
+      "authors": [
+        "Jan N. Weber",
+        "Christof Lorenz",
+        "Tanja C. Schober",
+        "Hannes Dehn",
+        "Rebecca Wiegels",
+        "Harald Kunstmann"
+      ],
+      "doi": "https://doi.org/10.3389/frwa.2026.1911791",
+      "pdf_url": "https://www.frontiersin.org/journals/water/articles/10.3389/frwa.2026.1911791/pdf",
+      "citations": 0,
+      "openalex_id": "https://openalex.org/W7202086522"
+    },
+    {
+      "source": "OpenAlex",
+      "title": "Evaluation of Rural Health Tourism SuitabilityBased on the MaxEnt Model: A Case Studyof the Panxi Area in Southwestern China",
+      "published": "2026-08-10",
+      "authors": [
+        "Yan Liu",
+        "Yibing Wu",
+        "Xiaotong Ren",
+        "Menglian Li",
+        "Yanhong Wang"
+      ],
+      "doi": "https://doi.org/10.15244/peai/225525",
+      "pdf_url": "https://www.pjoespeai.com/pdf-225525-143283?filename=Evaluation-of-Rural-Healt.pdf",
+      "citations": 0,
+      "openalex_id": "https://openalex.org/W7202073355"
+    },
+    {
+      "source": "OpenAlex",
+      "title": "Machine Learning and Remote Sensing for Gully Erosion Susceptibility Mapping in Southeast Nigeria: Progress, Challenges, and Research Priorities",
+      "published": "2026-08-10",
+      "authors": [
+        "Oludare Olukayode Babalola",
+        "Babatunde Adebo",
+        "Odunayo Christiana Ogunleye",
+        "Rukayat Damilola Adedokun"
+      ],
+      "doi": "https://doi.org/10.62292/njp.v35i4.2026.655",
+      "pdf_url": "https://njp.nipngr.org/index.php/njp/article/download/655/454",
+      "citations": 0,
+      "openalex_id": "https://openalex.org/W7202030821"
+    },
+    {
+      "source": "OpenAlex",
+      "title": "The next generation of products and methodologies to establish biocrusts in degraded ecosystems",
+      "published": "2026-08-10",
+      "authors": [
+        "Lydia Bailey",
+        "Cara Lauria",
+        "Sierra Jech",
+        "Madeline Mayorga",
+        "Jasmine Anenberg",
+        "Keven Griffen",
+        "Lea Condon",
+        "Kyle Doherty",
+        "Colin Tucker",
+        "Philip Ramsey",
+        "Helen Ivy Rowe",
+        "Sasha Reed",
+        "Anita Antoninka",
+        "Rebecca Durham",
+        "Brianne Cooke",
+        "Kara Gibson",
+        "Darren Olney",
+        "Seth Charley",
+        "Ben Covington",
+        "Nelly Nelson",
+        "Amanda Gonzalez",
+        "Sean Pablo",
+        "Terrin Bia",
+        "Michael Sloan",
+        "Hilina Yohannes Kebede",
+        "Pete Fule",
+        "Henry Grover",
+        "Kara Dohrenwend",
+        "Matthew Bowker"
+      ],
+      "doi": "https://doi.org/10.1017/dry.2026.10035",
+      "pdf_url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/02BBA49E033C4464A631A9E8D8D63D18/S297652932610035Xa.pdf/div-class-title-the-next-generation-of-products-and-methodologies-to-establish-biocrusts-in-degraded-ecosystems-div.pdf",
+      "citations": 0,
+      "openalex_id": "https://openalex.org/W7202098292"
+    },
+    {
+      "source": "OpenAlex",
+      "title": "Comparing crop evapotranspiration estimation methods to evaluate water-saving potential of alternative land uses in the San Joaquin Valley, California",
+      "published": "2026-08-10",
+      "authors": [
+        "Anshika Kandhway",
+        "Saswata Nandi",
+        "Martha H. Conklin",
+        "Mohammad Safeeq"
+      ],
+      "doi": "https://doi.org/10.3389/frwa.2026.1879797",
+      "pdf_url": "https://www.frontiersin.org/journals/water/articles/10.3389/frwa.2026.1879797/pdf",
+      "citations": 0,
+      "openalex_id": "https://openalex.org/W7202082324"
+    },
+    {
+      "source": "OpenAlex",
+      "title": "Three Gorges Dam-driven redistribution, sediment-water partitioning, and health risks of heavy metals in the Yangtze River",
+      "published": "2026-08-10",
+      "authors": [
+        "Dailan Deng",
+        "Hui Zou",
+        "Weilu Li",
+        "Xiaolong Wang",
+        "Xuejun Duan",
+        "Zhonghua Zhao",
+        "Zhijun Gong",
+        "Yongjiu Cai"
+      ],
+      "doi": "https://doi.org/10.1016/j.ecoenv.2026.120626",
+      "pdf_url": "https://doi.org/10.1016/j.ecoenv.2026.120626",
+      "citations": 0,
+      "openalex_id": "https://openalex.org/W7202037496"
+    },
+    {
+      "source": "OpenAlex",
+      "title": "Predicting habitat suitability of pollution-sensitive macroinvertebrates under climate change using climate and land use predictors in Ethiopia: an ensemble modeling approach",
+      "published": "2026-08-10",
+      "authors": [
+        "Yared Worku",
+        "Mengistu Asmamaw",
+        "Daniel Melese",
+        "Argaw Ambelu"
+      ],
+      "doi": "https://doi.org/10.1186/s13717-026-00712-6",
+      "pdf_url": "https://link.springer.com/content/pdf/10.1186/s13717-026-00712-6.pdf",
+      "citations": 0,
+      "openalex_id": "https://openalex.org/W7202096404"
+    },
+    {
+      "source": "OpenAlex",
+      "title": "A two-stage hierarchical runoff bias correction framework for observation-constrained river flow reconstruction",
+      "published": "2026-08-10",
+      "authors": [
+        "Zhiwen Xiong",
+        "Jiajun Jiang",
+        "Li Tang"
+      ],
+      "doi": "https://doi.org/10.1038/s41598-026-66464-7",
+      "pdf_url": "https://www.nature.com/articles/s41598-026-66464-7_reference.pdf",
+      "citations": 0,
+      "openalex_id": "https://openalex.org/W7202078898"
+    },
+    {
+      "source": "OpenAlex",
+      "title": "Low genetic variability in Prochilodus lacustris and Prochilodus nigricans from river basins of northern and northeastern Brazil",
+      "published": "2026-08-10",
+      "authors": [
+        "Elidy Rayane de Rezende Franca",
+        "Jord\u00e2nia Leticia do Nascimento Silva",
+        "Fernanda da Concei\u00e7\u00e3o Silva",
+        "Maria Histelle Sousa Nascimento",
+        "Fabiano Corr\u00eaa",
+        "Maria Claudene Barros",
+        "Elmary da Costa Fraga"
+      ],
+      "doi": "https://doi.org/10.20950/1678-2305/bip.2026.52.e974",
+      "pdf_url": "https://institutodepesca.org/index.php/bip/article/download/2091/1684",
+      "citations": 0,
+      "openalex_id": "https://openalex.org/W7202080797"
+    },
+    {
+      "source": "OpenAlex",
+      "title": "Integrating remote sensing, GIS, and statistical analysis for assessing ecotourism sustainability",
+      "published": "2026-08-10",
+      "authors": [
+        "Geetha Ponnaian",
+        "T Saju Raj",
+        "K. Venugopal",
+        "S. Sowdeshwari",
+        "R. Poomalai",
+        "Muralitharan Jothimani"
+      ],
+      "doi": "https://doi.org/10.1007/s44274-026-00958-z",
+      "pdf_url": "https://link.springer.com/content/pdf/10.1007/s44274-026-00958-z.pdf",
+      "citations": 0,
+      "openalex_id": "https://openalex.org/W7202099564"
+    }
+  ]
+}

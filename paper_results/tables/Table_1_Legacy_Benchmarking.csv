@@ -1,0 +1,5 @@
+Model Architecture,KGE (2022 Flood),FHV (2022 Flood),KGE (2023-2024),KGE Combined [95% CI],NSE Combined,FHV Combined
+PG-MCH (Proposed),0.879,-9.4%,0.938,"0.902 [0.86, 0.95]",0.99,-7.3%
+TGB-Hydro (GBDT),0.589,-29.1%,0.935,"0.725 [0.56, 0.96]",0.883,-19.4%
+RF-Baseline,0.532,-30.9%,0.832,"0.646 [0.52, 0.88]",0.834,-23.3%
+Conceptual GR4J Baseline,0.836,-12.1%,0.804,"0.820 [0.70, 0.88]",0.972,-9.5%
