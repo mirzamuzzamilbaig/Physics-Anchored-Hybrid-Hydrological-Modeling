@@ -1,6 +1,6 @@
 # Physics-Anchored Hybrid Hydrological Modeling Using Satellite Earth Observation for Monthly Volumetric Flood Risk and Extreme Generalization in the Lower Indus Basin, Pakistan
 
-[![Journal](https://img.shields.io/badge/Journal-Journal_of_Hydroinformatics-003366.svg)](https://iwaponline.com/jh/)
+[![Journal](https://img.shields.io/badge/Journal-Geosciences_Journal-003366.svg)](https://link.springer.com/journal/12303)
 [![Domain](https://img.shields.io/badge/Domain-Hydrology_%26_Remote_Sensing-green.svg)]()
 [![Data](https://img.shields.io/badge/Data-Google_Earth_Engine-blue.svg)](https://earthengine.google.com/)
 [![License](https://img.shields.io/badge/License-MIT-brightgreen.svg)](LICENSE)
@@ -12,10 +12,10 @@ Official repository for the research paper: **"Physics-Anchored Hybrid Hydrologi
 ## 📌 Author & Institutional Affiliation
 
 **Mirza Muhammad Muzzamil**  
-*National Center in Big Data and Cloud Computing*  
 *Department of Computer and Information Systems Engineering (CISE)*  
 *NED University of Engineering and Technology, Karachi 75270, Pakistan*  
-*Corresponding Author Email:* `mirzamuzzamil@neduet.edu.pk`
+*Corresponding Author Email:* `mirzamuzzamil@neduet.edu.pk`  
+*ORCID iD:* [0000-0001-5258-8959](https://orcid.org/0000-0001-5258-8959)
 
 ---
 
@@ -66,17 +66,19 @@ $$\hat{Q}(t) = \min\left(P_t + Q_{\mathrm{inflow},t} + API_t, \; \max\left(0, \;
 ```text
 .
 ├── paper_latex/                        # Complete LaTeX manuscript & 300 DPI figures
-│   ├── main.tex                        # Journal of Hydroinformatics LaTeX source
+│   ├── main.tex                        # Geosciences Journal LaTeX source
+│   ├── Research_Article_Geosciences_Journal.pdf # Compiled submission-ready PDF
+│   ├── Research_Article.docx           # Synchronized Word manuscript format
 │   ├── references.bib                  # Complete BibTeX bibliography database
 │   └── figures/                        # High-resolution manuscript figures (PNG)
 ├── paper_results/                      # Benchmark outputs & tables
 │   ├── figures/                        # Generated hydrographs, scatter & ablation charts
-│   └── tables/                         # CSV performance metric tables (Tables I & II)
+│   └── tables/                         # CSV performance metric tables
 ├── extracted_sindh_data/               # Extracted GEE EO & telemetry dataset (2020–2024)
 │   └── sindh_indus_basin_monthly_2020_2024.csv
 ├── run_rigorous_q1_experiments.py      # Main experimental pipeline & MBB bootstrap
 ├── run_true_2022_holdout_experiment.py # 2022 Pakistan Mega-Flood OOD holdout test
-├── generate_methodology_chart.py       # Architecture diagram generator (Matplotlib)
+├── generate_methodology_chart.py       # Horizontal architecture diagram generator
 ├── plot_sindh_hydro_analytics.py       # Hydro-climatic visual analytics
 ├── LICENSE                             # MIT License
 └── README.md                           # Documentation
@@ -107,12 +109,6 @@ To run full model benchmarking, multi-regime ablation, and 1,000 MBB confidence 
 python run_rigorous_q1_experiments.py
 ```
 
-### 4. Compile Manuscript PDF
-To compile the LaTeX manuscript locally using Tectonic or PDFLaTeX:
-```bash
-tectonic paper_latex/main.tex
-```
-
 ---
 
 ## 📜 Citation
@@ -123,9 +119,9 @@ If you use this codebase or model architecture in your research, please cite:
 @article{muzzamil2026physics,
   title={Physics-Anchored Hybrid Hydrological Modeling Using Satellite Earth Observation for Monthly Volumetric Flood Risk and Extreme Generalization in the Lower Indus Basin, Pakistan},
   author={Muzzamil, Mirza Muhammad},
-  journal={Journal of Hydroinformatics},
+  journal={Geosciences Journal},
   year={2026},
-  publisher={IWA Publishing / Oxford University Press}
+  publisher={Springer Nature}
 }
 ```
 
