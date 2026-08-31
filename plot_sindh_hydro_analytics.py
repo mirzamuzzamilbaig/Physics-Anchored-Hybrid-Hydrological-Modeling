@@ -18,7 +18,7 @@ plt.rcParams['font.family'] = 'sans-serif'
 os.makedirs('visualizations', exist_ok=True)
 
 # Load data
-df = pd.read_csv('extracted_sindh_data/sindh_indus_basin_monthly_2020_2024.csv')
+df = pd.read_csv('extracted_sindh_data/sindh_indus_basin_monthly_2000_2024.csv')
 df['datetime'] = pd.to_datetime(df['date'])
 stations = pd.read_csv('extracted_sindh_data/sindh_indus_barrages_stations.csv')
 

@@ -95,7 +95,7 @@ sc2_2 = patches.FancyBboxPatch((23.2, 12), 14.6, 36, boxstyle="round,pad=0.3,rou
 ax.add_patch(sc2_1); ax.add_patch(sc2_2)
 
 ax.text(30.5, 73, 'Antecedent Memory', ha='center', va='center', fontsize=7.8, fontweight='bold', color='#047857', zorder=4)
-ax.text(30.5, 61, r'$API_t = \sum_{k=0}^{K} \gamma^k P_{t-k}$' + '\n' + r'($\gamma = 0.60, K=2$)' + '\nSoil saturation memory', ha='center', va='center', fontsize=7.2, color='#1E293B', zorder=4)
+ax.text(30.5, 61, r'$API_t = \gamma P_{t-1} + \gamma^2 P_{t-2}$' + '\n' + r'($\gamma = 0.60$ strictly lagged)' + '\nSoil saturation memory', ha='center', va='center', fontsize=7.2, color='#1E293B', zorder=4)
 
 ax.text(30.5, 41, 'Atmospheric Deficit', ha='center', va='center', fontsize=7.8, fontweight='bold', color='#047857', zorder=4)
 ax.text(30.5, 26, r'$D_{\mathrm{deficit}} = PET - P$' + '\nMonthly aggregation\nGEE Spatial Masking\n140,914 km² Sindh', ha='center', va='center', fontsize=7.2, color='#1E293B', zorder=4)
@@ -114,7 +114,7 @@ ax.text(51, 73, 'Physical Baseline (NNLS)', ha='center', va='center', fontsize=7
 ax.text(51, 59, r'$Q_{\mathrm{base}} = \beta_0 + \beta_1 P +$' + '\n' + r'$\beta_2 API + \beta_3 Q_{\mathrm{inflow}}$' + '\n' + r'Non-Negative ($\beta \geq 0$)' + '\n' + r'L2 Penalty ($\lambda=2.0$)', ha='center', va='center', fontsize=7.2, color='#1E293B', zorder=4)
 
 ax.text(51, 38, 'Residual GBDT Ensemble', ha='center', va='center', fontsize=7.8, fontweight='bold', color='#6D28D9', zorder=4)
-ax.text(51, 23, r'$\varepsilon(t) = Q_{\mathrm{obs}} - Q_{\mathrm{base}}$' + '\n' + r'$\hat{\varepsilon}(t) = \mathcal{F}_{\mathrm{trees}}(X)$' + '\nCaptures non-linearities\n' + r'$N=24$ calibration', ha='center', va='center', fontsize=7.2, color='#1E293B', zorder=4)
+ax.text(51, 23, r'$\varepsilon(t) = Q_{\mathrm{obs}} - Q_{\mathrm{base}}$' + '\n' + r'$\hat{\varepsilon}(t) = \mathcal{F}_{\mathrm{trees}}(X)$' + '\nCaptures non-linearities\n' + r'$N=240$ mo. calibration', ha='center', va='center', fontsize=7.2, color='#1E293B', zorder=4)
 
 
 # STAGE 4: Dual Mass-Bounded Output (x = 63..80, y = 5..87)
@@ -127,7 +127,7 @@ sc4_2 = patches.FancyBboxPatch((64.2, 9), 14.6, 32, boxstyle="round,pad=0.3,roun
 ax.add_patch(sc4_1); ax.add_patch(sc4_2)
 
 ax.text(71.5, 73, 'Mass-Balance Envelope', ha='center', va='center', fontsize=7.8, fontweight='bold', color='#334155', zorder=4)
-ax.text(71.5, 58, r'$W_{\mathrm{total}} = P(t) +$' + '\n' + r'$Q_{\mathrm{inflow}}(t) + API(t)$' + '\nUpper Mass Bound\nZero Floor Bound', ha='center', va='center', fontsize=7.2, color='#1E293B', zorder=4)
+ax.text(71.5, 58, r'$W_{\mathrm{total}} = P(t) +$' + '\n' + r'$Q_{\mathrm{inflow}}(t) + API_t$' + '\nUpper Mass Bound\nZero Floor Bound', ha='center', va='center', fontsize=7.2, color='#1E293B', zorder=4)
 
 ax.text(71.5, 36, 'Composite Runoff', ha='center', va='center', fontsize=7.8, fontweight='bold', color='#334155', zorder=4)
 ax.text(71.5, 21, r'$\hat{Q} = \min(W_{\mathrm{total}},$' + '\n' + r'$\max(0, Q_{\mathrm{base}} + \hat{\varepsilon}))$' + '\nEliminates unphysical\nOOD extrapolation', ha='center', va='center', fontsize=7.2, color='#1E293B', zorder=4)
@@ -143,7 +143,7 @@ sc5_2 = patches.FancyBboxPatch((83.1, 9), 13.8, 34, boxstyle="round,pad=0.3,roun
 ax.add_patch(sc5_1); ax.add_patch(sc5_2)
 
 ax.text(90, 73, 'Holdout Validation', ha='center', va='center', fontsize=7.8, fontweight='bold', color='#BE123C', zorder=4)
-ax.text(90, 59, '• 2022 Mega-Flood\n  KGE = 0.879\n  FHV = -9.4%\n• 2022-2024 Test\n  KGE = 0.902', ha='center', va='center', fontsize=7.2, color='#1E293B', zorder=4)
+ax.text(90, 59, '• 2022 Mega-Flood\n  KGE = 0.812\n  FHV = -4.0%\n• 2020-2024 Test\n  KGE = 0.895', ha='center', va='center', fontsize=7.2, color='#1E293B', zorder=4)
 
 ax.text(90, 38, 'Decision Support', ha='center', va='center', fontsize=7.8, fontweight='bold', color='#BE123C', zorder=4)
 ax.text(90, 23, '• Guddu-Sukkur-Kotri\n  1-3 mo Forecasts\n• Manchar Retention\n• Delta Outflows', ha='center', va='center', fontsize=7.2, color='#1E293B', zorder=4)

@@ -1,6 +1,5 @@
 # Physics-Anchored Hybrid Hydrological Modeling Using Satellite Earth Observation for Monthly Volumetric Flood Risk and Extreme Generalization in the Lower Indus Basin, Pakistan
 
-[![Journal](https://img.shields.io/badge/Journal-Geosciences_Journal-003366.svg)](https://link.springer.com/journal/12303)
 [![Domain](https://img.shields.io/badge/Domain-Hydrology_%26_Remote_Sensing-green.svg)]()
 [![Data](https://img.shields.io/badge/Data-Google_Earth_Engine-blue.svg)](https://earthengine.google.com/)
 [![License](https://img.shields.io/badge/License-MIT-brightgreen.svg)](LICENSE)
@@ -23,41 +22,54 @@ Official repository for the research paper: **"Physics-Anchored Hybrid Hydrologi
 
 Accurate monthly volumetric streamflow and flood runoff forecasting in heavily managed, low-gradient alluvial river basins remains challenging due to severe hydrometeorological non-stationarity, intensive canal diversions, transboundary upstream inflows, and observational data scarcity.
 
-This repository provides a **Physics-Anchored Water-Balance Hybrid Framework (PG-MCH)** for the Lower Indus Basin within Sindh Province, Pakistan ($140,914 \text{ km}^2$). The model ingests multi-sensor satellite Earth observation streams from Google Earth Engine (GEE) across 2020–2024:
-* **CHIRPS v2.0** high-resolution precipitation ($P$)
+This repository provides a **Physics-Anchored Water-Balance Hybrid Framework (PG-MCH)** for the Lower Indus Basin within Sindh Province, Pakistan ($140,914 \text{ km}^2$). The model ingests a 25-year multi-decadal satellite Earth observation record from Google Earth Engine (GEE) spanning **2000–2024 ($N=300$ monthly observations)**:
+* **CHIRPS v2.0** precipitation ($P$)
 * **ERA5-Land** temperature ($T$) and total evaporation ($ET$)
-* **NASA SMAP L4** volumetric soil moisture
+* **NASA SMAP L4 & ERA5** volumetric root-zone soil moisture ($SM$)
 * **SRTM 30m DEM** catchment elevation profiles
-* **NASA GRACE/GRACE-FO** terrestrial water storage anomalies
+* **NASA GRACE/GRACE-FO** terrestrial water storage anomalies ($TWSA$)
 * **Mainstem Upstream Telemetry** ($Q_{\text{inflow}}$ at Guddu Barrage)
 
-To evaluate true zero-shot out-of-distribution (OOD) extreme generalization, the model was calibrated exclusively on baseline years (**2020–2021**, $N=24$ months) and stress-tested on the unseen catastrophic **2022 Pakistan Mega-Flood** ($+350\%$ monsoon rainfall) followed by a **2023–2024** non-stationary future test period.
+To evaluate genuine out-of-distribution (OOD) extreme generalization over multi-decadal timelines:
+* **Calibration Baseline:** 20-year multi-decadal record (**2000–2019**, $N=240$ months).
+* **Extreme Holdout:** Unseen catastrophic **2022 Pakistan Mega-Flood** ($+350\%$ monsoon rainfall) and **2020–2022** holdout period.
+* **Future Validation:** **2023–2024** non-stationary post-flood recovery.
 
 ---
 
 ## 📊 Key Experimental Findings
 
-| Model Architecture | KGE (2022 Flood Holdout) | FHV Peak Bias (2022 Flood) | KGE (2023–2024 Future) | KGE Combined [95% CI] | NSE Combined |
-|---|:---:|:---:|:---:|:---:|:---:|
-| **PG-MCH (Proposed Hybrid)** | **0.879** | **-9.4%** | **0.938** | **0.902 [0.86, 0.95]** | **0.990** |
-| Conceptual GR4J Baseline | 0.836 | -12.1% | 0.804 | 0.820 [0.70, 0.88] | 0.972 |
-| TGB-Hydro (GBDT) | 0.589 | -29.1% | 0.935 | 0.725 [0.56, 0.96] | 0.883 |
-| RF Baseline | 0.532 | -30.9% | 0.832 | 0.646 [0.52, 0.88] | 0.834 |
+### Benchmark Evaluation (2000–2024, $N=300$)
+| Model Architecture | KGE (2022 Mega-Flood) | FHV Peak Bias (2022 Flood) | KGE (2023–2024 Future) | KGE Combined [95% CI] | NSE Combined | RMSE Combined (mm) | FHV Combined |
+|---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| **PG-MCH (Proposed Hybrid)** | **0.812** | **-4.0%** | **0.871** | **0.895 [0.73, 0.93]** | **0.838** | **11.78** | **-3.1%** |
+| TGB-Hydro (GBDT) | 0.750 | -13.3% | 0.895 | 0.857 [0.70, 0.93] | 0.818 | 12.49 | -7.3% |
+| RF-Baseline | 0.721 | -7.0% | 0.853 | 0.841 [0.67, 0.91] | 0.783 | 13.61 | -10.5% |
+| Conceptual GR4J Baseline | 0.744 | +6.6% | 0.821 | 0.797 [0.67, 0.87] | 0.922 | 8.18 | +9.9% |
+
+### Systematic Multi-Regime Ablation Study
+| Ablation Configuration | KGE (2022 Mega-Flood) | FHV (2022 Mega-Flood) | KGE (2020–2024 Combined) | FHV (2020–2024 Combined) |
+|---|:---:|:---:|:---:|:---:|
+| **Full PG-MCH (Proposed Framework)** | **0.812** | **-4.0%** | **0.895** | **-3.1%** |
+| w/o Physical Backbone (Pure ML) | 0.750 | -13.3% | 0.857 | -7.3% |
+| w/o Upstream Inflow ($Q_{\text{inflow}}$ Telemetry) | 0.717 | -16.9% | 0.845 | -6.1% |
+| w/o Antecedent Memory (No Lagged $API$) | 0.811 | -6.0% | 0.901 | -5.3% |
+| w/o Thermal/Evaporative Forcing | 0.814 | -3.1% | 0.898 | -5.1% |
 
 ---
 
 ## ⚙️ Model Architecture (PG-MCH)
 
-The framework combines physical water-balance constraints with residual non-linear learning across 5 integrated layers:
+The framework combines physical water-balance constraints with residual non-linear learning across 5 integrated tiers:
 
-$$\hat{Q}(t) = \min\left(P_t + Q_{\mathrm{inflow},t} + API_t, \; \max\left(0, \; \boldsymbol{\beta}^T \mathbf{X}_{\mathrm{phys}}(t) + \hat{\varepsilon}(\mathbf{X}(t))\right)\right)$$
+$$\hat{Q}(t) = \min\left(P(t) + Q_{\mathrm{inflow}}(t) + API_t, \; \max\left(0, \; \boldsymbol{\beta}^T \mathbf{X}_{\mathrm{base}}(t) + \hat{\varepsilon}(\mathbf{X}(t))\right)\right)$$
 
-1. **Layer 1 (EO Ingestion)**: Multi-sensor satellite grids extracted via Google Earth Engine.
-2. **Layer 2 (Feature Engineering)**: Antecedent Precipitation Index ($API_t = P_t + 0.60 P_{t-1} + 0.36 P_{t-2}$) and moisture deficit calculations.
-3. **Layer 3A (Physical Linear Backbone)**: Non-Negative L2-Regularized Least Squares (NNLS, $\boldsymbol{\beta} \ge 0$, $\lambda = 2.0$) establishing monotonic water balance $Q_{\text{base}}$.
-4. **Layer 3B (Residual ML Correction)**: Tree-depth-capped Gradient Boosted Decision Trees modeling non-linear residual errors $\hat{\varepsilon} = Q_{\text{obs}} - Q_{\text{base}}$.
-5. **Layer 4 (Dual Mass-Bounding Operator)**: Strict physical bounding enforcing non-negativity and maximum water input volume limits.
-6. **Layer 5 (Uncertainty Quantification)**: 1,000 resamples using Moving Block Bootstrap (MBB, block size $b=3$ months) to compute non-parametric $95\%$ confidence intervals.
+1. **Tier 1 (EO Ingestion)**: Multi-decadal satellite grids extracted via Google Earth Engine (2000–2024).
+2. **Tier 2 (Feature Engineering)**: Strictly lagged Antecedent Precipitation Index ($API_t = 0.60 P_{t-1} + 0.36 P_{t-2}$, eliminating current-step double-counting) and moisture deficit calculations.
+3. **Tier 3A (Physical Linear Backbone)**: Non-Negative L2-Regularized Least Squares (NNLS, $\boldsymbol{\beta} \ge 0$, $\lambda = 2.0$) establishing monotonic water balance $Q_{\text{base}}$.
+4. **Tier 3B (Residual ML Correction)**: Tree-depth-capped Gradient Boosted Decision Trees modeling non-linear residual errors $\hat{\varepsilon} = Q_{\text{obs}} - Q_{\text{base}}$.
+5. **Tier 4 (Dual Mass-Bounding Operator)**: Strict physical bounding enforcing non-negativity and single-count mass envelope limits.
+6. **Tier 5 (Uncertainty Quantification)**: 1,000 resamples using Moving Block Bootstrap (MBB, block size $b=3$ months) to compute non-parametric $95\%$ confidence intervals.
 
 ---
 
@@ -65,20 +77,23 @@ $$\hat{Q}(t) = \min\left(P_t + Q_{\mathrm{inflow},t} + API_t, \; \max\left(0, \;
 
 ```text
 .
-├── paper_latex/                        # Complete LaTeX manuscript & 300 DPI figures
-│   ├── main.tex                        # Geosciences Journal LaTeX source
-│   ├── Research_Article_Geosciences_Journal.pdf # Compiled submission-ready PDF
-│   ├── Research_Article.docx           # Synchronized Word manuscript format
+├── paper_latex/                        # LaTeX manuscript, rebuttal, & 300 DPI figures
+│   ├── main.tex                        # Primary LaTeX source
+│   ├── Research_Article_Geosciences_Journal.tex # Synchronized journal LaTeX format
+│   ├── Research_Article_Geosciences_Journal.docx # Synchronized Word manuscript format
+│   ├── Research_Article.docx           # Synchronized root Word document
+│   ├── Response_to_Editor_and_Reviewers.md # Comprehensive point-by-point rebuttal
 │   ├── references.bib                  # Complete BibTeX bibliography database
-│   └── figures/                        # High-resolution manuscript figures (PNG)
+│   └── figures/                        # 300 DPI publication figures (PNG)
 ├── paper_results/                      # Benchmark outputs & tables
 │   ├── figures/                        # Generated hydrographs, scatter & ablation charts
 │   └── tables/                         # CSV performance metric tables
-├── extracted_sindh_data/               # Extracted GEE EO & telemetry dataset (2020–2024)
-│   └── sindh_indus_basin_monthly_2020_2024.csv
+├── extracted_sindh_data/               # Extracted 2000–2024 GEE EO & telemetry dataset
+│   └── sindh_indus_basin_monthly_2000_2024.csv
 ├── run_rigorous_q1_experiments.py      # Main experimental pipeline & MBB bootstrap
 ├── run_true_2022_holdout_experiment.py # 2022 Pakistan Mega-Flood OOD holdout test
-├── generate_methodology_chart.py       # Horizontal architecture diagram generator
+├── generate_methodology_chart.py       # Architecture diagram generator
+├── generate_manuscript_docx.py         # Complete Word manuscript builder
 ├── plot_sindh_hydro_analytics.py       # Hydro-climatic visual analytics
 ├── LICENSE                             # MIT License
 └── README.md                           # Documentation
@@ -90,23 +105,29 @@ $$\hat{Q}(t) = \min\left(P_t + Q_{\mathrm{inflow},t} + API_t, \; \max\left(0, \;
 
 ### 1. Requirements & Dependencies
 * Python 3.9+
-* `numpy`, `pandas`, `scikit-learn`, `scipy`, `matplotlib`, `seaborn`
+* `numpy`, `pandas`, `scikit-learn`, `scipy`, `matplotlib`, `seaborn`, `python-docx`
 
 Install dependencies via pip:
 ```bash
-pip install numpy pandas scikit-learn scipy matplotlib seaborn
+pip install numpy pandas scikit-learn scipy matplotlib seaborn python-docx
 ```
 
-### 2. Run Out-of-Distribution 2022 Holdout Experiment
-To execute the zero-shot 2022 Pakistan Mega-Flood evaluation and regenerate hydrographs:
+### 2. Run Multi-Decadal Benchmark Suite & Moving Block Bootstrap UQ
+To run full model benchmarking, multi-regime ablation, and 1,000 MBB confidence intervals across 2000–2024:
+```bash
+python run_rigorous_q1_experiments.py
+```
+
+### 3. Run Out-of-Distribution 2022 Mega-Flood Holdout
+To execute the zero-shot 2022 Pakistan Mega-Flood evaluation:
 ```bash
 python run_true_2022_holdout_experiment.py
 ```
 
-### 3. Run Benchmark Suite & Moving Block Bootstrap UQ
-To run full model benchmarking, multi-regime ablation, and 1,000 MBB confidence intervals:
+### 4. Build Submission-Ready Word Manuscript
+To generate the updated, formatted `.docx` manuscript with continuous line numbering:
 ```bash
-python run_rigorous_q1_experiments.py
+python generate_manuscript_docx.py
 ```
 
 ---
