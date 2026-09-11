@@ -1,0 +1,7 @@
+Configuration,KGE (2022 Flood),FHV (2022 Flood),KGE (2020-2024),FHV (2020-2024)
+Full SA-PG-MCH (Proposed 2.0),0.706,  +6.2%,0.88,  -5.1%
+w/o Latent Storage State (Static API),0.723,  +8.5%,0.883,  -2.7%
+w/o GRACE Satellite Gravimetry Constraint,0.509,  +5.9%,0.518,  +6.4%
+w/o Storage-Adaptive Physics Gating (Fixed alpha),0.649, +14.4%,0.864,  -3.1%
+w/o Tail-Aware Extreme Objective,0.717,  +5.3%,0.884,  -5.4%
+w/o Physical Linear Backbone (Pure ML),0.736, -16.5%,0.817, -13.6%
